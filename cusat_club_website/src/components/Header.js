@@ -44,8 +44,8 @@ const styles = StyleSheet.create({
 	root: {
 		justifyContent: "center",
 		alignItems: "center",
-		marginLeft: 68,
-		marginRight: 68,
+		marginLeft: 57,
+		marginRight: 57,
 	},
 	navBar: {
 		display: "flex",
@@ -55,9 +55,9 @@ const styles = StyleSheet.create({
 		marginLeft: "auto",
 		marginRight: "auto",
 		background: COLORS.primary,
-		minHeight: 68,
-		borderRadius: 16,
-		maxWidth: 1424,
+		height: 57,
+		borderRadius: 13,
+		maxWidth: 1187,
 	},
 
 	left: {
@@ -67,19 +67,19 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	logoImg: {
-		width: 46,
-		height: 46,
-		marginLeft: 42,
+		width: 38,
+		height: 38,
+		marginLeft: 35,
 	},
 	logoName: {
-		fontSize: 24,
+		fontSize: 20,
 		fontWeight: "bold",
 		color: "#015546",
 		lineHeight: "37px",
-		marginLeft: 36,
+		marginLeft: 29,
 	},
 	right: {
-		marginRight: 52,
+		marginRight: 35,
 		display: "flex",
 		flexDirection: "row",
 		justifyContent: "center",
@@ -87,11 +87,11 @@ const styles = StyleSheet.create({
 	},
 	links: {
 		textDecoration: "none",
-		fontSize: 20,
+		fontSize: 17,
 		lineHeight: "30px",
 		fontWeight: "bold",
 		color: "#1B2F5B",
-		marginLeft: 55,
+		marginLeft: 37,
 	},
 });
 
