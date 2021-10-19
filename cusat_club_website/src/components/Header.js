@@ -55,9 +55,9 @@ const styles = StyleSheet.create({
 		marginLeft: "auto",
 		marginRight: "auto",
 		background: COLORS.primary,
-		height: 57,
-		borderRadius: 13,
-		maxWidth: 1187,
+		height: 64,
+		borderRadius: 20,
+		maxWidth: "100%",
 	},
 
 	left: {
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
 		marginLeft: 35,
 	},
 	logoName: {
-		fontSize: 20,
+		fontSize: 25,
 		fontWeight: "bold",
 		color: "#015546",
 		lineHeight: "37px",
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
 	},
 	links: {
 		textDecoration: "none",
-		fontSize: 17,
+		fontSize: 22,
 		lineHeight: "30px",
 		fontWeight: "bold",
 		color: "#1B2F5B",

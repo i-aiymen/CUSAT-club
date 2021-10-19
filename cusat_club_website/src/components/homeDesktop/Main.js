@@ -12,7 +12,7 @@ const Main = () => {
 				<div className={css(styles.mainCard)}>
 					<div className={css(styles.top)}>
 						<img src={Logo} alt="Big Logo" className={css(styles.bigLogo)} />
-						<span className={css(styles.mainCardTitle)}> CUSAT CLUBS </span>
+						<div className={css(styles.mainCardTitle)}> CUSAT CLUBS </div>
 						<span className={css(styles.mainCardDesc)}>
 							ENGINNERING YOUR FUTURE
 						</span>
@@ -72,7 +72,6 @@ const Main = () => {
 
 const styles = StyleSheet.create({
 	root: {
-		color: "white",
 		marginTop: 27,
 		marginLeft: 57,
 		marginRight: 57,
@@ -85,14 +84,14 @@ const styles = StyleSheet.create({
 		justifyContent: "space-between",
 		marginLeft: "auto",
 		marginRight: "auto",
-		maxWidth: 1187,
+		columnGap: 30,
 	},
 	mainCard: {
-		width: 740,
-		height: 557,
+		width: "64%",
+		height: "100%",
 		background:
 			"transparent linear-gradient(180deg, #4ECDB0 0%, #407ACE 100%) 0% 0% no-repeat padding-box",
-		borderRadius: 13,
+		borderRadius: 20,
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
@@ -105,25 +104,26 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	bigLogo: {
-		width: 199,
-		height: 204,
-		marginTop: 81,
+		width: 299,
+		height: 306,
+		marginTop: 100,
 	},
 	mainCardTitle: {
 		marginTop: 39,
-		fontSize: 67,
+		fontSize: 90,
 		fontWeight: "bold",
 		lineHeight: "58px",
 		color: COLORS.primary,
 	},
 	mainCardDesc: {
 		marginTop: 17,
-		fontSize: 32,
+		fontSize: 43,
 		fontWeight: "bold",
 		lineHeight: "58px",
 		color: COLORS.primary,
 	},
 	icon: {
+		marginTop: 60,
 		bottom: 15,
 		display: "flex",
 		flexDirection: "column",
@@ -146,14 +146,15 @@ const styles = StyleSheet.create({
 		paddingRight: 7,
 	},
 	clubCards: {
+		width: "36%",
 		display: "grid",
 		gridTemplateColumns: "repeat(3, 1fr)",
 		rowGap: 44,
 		columnGap: 35,
 	},
 	clubCard: {
-		width: 106,
-		height: 106,
+		width: "100%",
+		height: "100%",
 		background: COLORS.primary,
 		borderRadius: 14,
 		display: "flex",
