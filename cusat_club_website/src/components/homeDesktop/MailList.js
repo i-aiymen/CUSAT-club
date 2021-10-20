@@ -37,12 +37,11 @@ const MailList = () => {
 						/>
 						<input
 							type="submit"
-							placeholder="JOIN"
+							value="JOIN"
 							className={css(styles.inputButton)}
 						/>
 						<div className={css(styles.joined)}>
-							<span>You have joined</span>
-							<img src="" alt="tick" />
+							<span>You have joined✔</span>
 						</div>
 					</form>
 				</div>
@@ -83,11 +82,45 @@ const styles = StyleSheet.create({
 		lineHeight: "50px",
 		color: COLORS.primary,
 	},
+	description: {
+		fontSize: 25,
+		lineHeight: "30px",
+		marginTop: 30,
+		marginBottom: 30,
+		fontWeight: "bold",
+	},
 	form: {
 		display: "grid",
 		gridTemplateColumns: "repeat(2, 1fr)",
-		rowGap: 59,
+		rowGap: 49,
 		columnGap: 72,
+	},
+	inputFields: {
+		height: 60,
+		border: `4px solid ${COLORS.tertiary}`,
+		borderRadius: 20,
+		paddingLeft: 20,
+		"::placeholder": {
+			fontSize: 20,
+			fontWeight: "bold",
+			color: "#cccbc5",
+		},
+	},
+	inputButton: {
+		height: 60,
+		border: "none",
+		background: "#D4887B",
+		borderRadius: 20,
+		paddingLeft: 20,
+		fontSize: 35,
+		fontWeight: "bold",
+		color: COLORS.primary,
+		cursor: "pointer",
+	},
+	joined: {
+		fontSize: 35,
+		color: "#cccbc5",
+		fontWeight: "bold",
 	},
 });
 

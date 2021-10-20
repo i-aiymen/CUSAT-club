@@ -6,6 +6,7 @@ import Vision from "../../components/homeDesktop/Vision";
 import UpEvents from "../../components/homeDesktop/UpEvents";
 import InfoCard from "../../components/homeDesktop/InfoCard";
 import MailList from "../../components/homeDesktop/MailList";
+import Footer from "../../components/Footer";
 
 const Home = () => {
 	return (
@@ -16,6 +17,7 @@ const Home = () => {
 			<UpEvents />
 			<InfoCard />
 			<MailList />
+			<Footer />
 		</div>
 	);
 };
