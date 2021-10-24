@@ -4,7 +4,7 @@ import { COLORS } from "../../styles/Constants";
 
 const Vision = () => {
 	return (
-		<div className={css(styles.root)}>
+		<div className={css(styles.root)} id="vision">
 			<div className={css(styles.contents)}>
 				<div className={css(styles.missionCard)}>
 					<div className={css(styles.cardContents)}>

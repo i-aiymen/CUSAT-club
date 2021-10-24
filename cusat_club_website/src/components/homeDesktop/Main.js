@@ -1,9 +1,13 @@
 import React from "react";
+import '../../arrow.css';
 import { StyleSheet, css } from "aphrodite";
 import MsAmb from "../../assets/images/microsoftamb.png";
 import Logo from "../../assets/images/Logo.png";
-import Arrow from "../../assets/icons/long_down.svg";
+// import Arrow from "../../assets/icons/long_down.svg";
 import { COLORS } from "../../styles/Constants";
+import { Link } from "react-scroll";
+import {MdSouth} from "react-icons/md"
+import {MdOutlineHorizontalRule} from "react-icons/md"
 
 const Main = () => {
 	return (
@@ -17,15 +21,16 @@ const Main = () => {
 							ENGINNERING YOUR FUTURE
 						</span>
 					</div>
-					<div className={css(styles.icon)}>
-						<div className={css(styles.bar)}></div>
-						<div className={css(styles.bar)}></div>
-						<img
-							src={Arrow}
-							alt="icon-down-arrow"
-							className={css(styles.arrowIcon)}
-						/>
+					
+					<div className="icon">
+					<Link to="vision" smooth={true} duration={1000} >
+						<MdOutlineHorizontalRule  className="bar"/>
+						<MdOutlineHorizontalRule  className="bar"/>
+						
+						<MdSouth size="2em"/>
+						</Link>
 					</div>
+					
 				</div>
 				<div className={css(styles.clubCards)}>
 					<div className={css(styles.clubCard)}>
@@ -140,10 +145,14 @@ const styles = StyleSheet.create({
 		marginLeft: 14,
 	},
 	arrowIcon: {
+		':hover': {
+			color: COLORS.tertiary,
+		},
 		height: 23,
 		width: 30,
 		color: COLORS.primary,
 		paddingRight: 7,
+		cursor: "pointer",
 	},
 	clubCards: {
 		width: "36%",
