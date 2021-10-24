@@ -31,7 +31,7 @@ const Header = () => {
 							{" "}
 							Team
 						</Link1>
-						<Link2 to="footer" className={css(styles.links)} smooth={true} duration={1000}>
+						<Link2 to="footer" className={css(styles.links)} smooth={true} duration={1500} style={{cursor: "pointer"}}>
 							{" "}
 							Contact Us
 						</Link2>
