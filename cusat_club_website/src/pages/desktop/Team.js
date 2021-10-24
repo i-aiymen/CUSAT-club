@@ -1,14 +1,14 @@
 import React from "react";
 import { StyleSheet, css } from "aphrodite";
 import Header from "../../components/Header";
-import Main from "../../components/homeDesktop/Main";
+import Team from "../../components/teamDesktop/TeamCard";
 import Footer from "../../components/Footer";
 
 const Event = () => {
 	return (
 		<div className={css(styles.root)}>
 			<Header />
-            <Main />
+            <Team />
 			<Footer />
 		</div>
 	);
