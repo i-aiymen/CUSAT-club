@@ -1,8 +1,9 @@
 import React from "react";
 import { StyleSheet, css } from "aphrodite";
-import { Link } from "react-router-dom";
+import { Link as Link1} from "react-router-dom";
 import { COLORS } from "../styles/Constants";
 import Logo from "../assets/images/Logo.png";
+import { Link as Link2} from "react-scroll";
 
 const Header = () => {
 	return (
@@ -14,26 +15,26 @@ const Header = () => {
 				</div>
 				<div className={css(styles.right)}>
 					<div className={css(styles.pageNavs)}>
-						<Link to="/" className={css(styles.links)}>
+						<Link1 to="/" className={css(styles.links)}>
 							{" "}
 							Home
-						</Link>
-						<Link to="/about" className={css(styles.links)}>
+						</Link1>
+						<Link1 to="/about" className={css(styles.links)}>
 							{" "}
 							About
-						</Link>
-						<Link to="/events" className={css(styles.links)}>
+						</Link1>
+						<Link1 to="/events" className={css(styles.links)}>
 							{" "}
 							Events
-						</Link>
-						<Link to="/team" className={css(styles.links)}>
+						</Link1>
+						<Link1 to="/team" className={css(styles.links)}>
 							{" "}
 							Team
-						</Link>
-						<Link to="/contact" className={css(styles.links)}>
+						</Link1>
+						<Link2 to="footer" className={css(styles.links)} smooth={true} duration={1000}>
 							{" "}
 							Contact Us
-						</Link>
+						</Link2>
 					</div>
 				</div>
 			</div>

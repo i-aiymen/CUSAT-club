@@ -3,7 +3,7 @@ import React from "react";
 import { COLORS } from "../styles/Constants";
 const Footer = () => {
 	return (
-		<div className={css(styles.root)}>
+		<div className={css(styles.root)} id="footer">
 			<div className={css(styles.container)}>
 				<div className={css(styles.divider)}></div>
 				<div className={css(styles.footer)}>
