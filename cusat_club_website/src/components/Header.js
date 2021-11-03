@@ -1,11 +1,12 @@
 import React from "react";
 import { StyleSheet, css } from "aphrodite";
-import { Link as Link1} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import { COLORS } from "../styles/Constants";
 import Logo from "../assets/images/Logo.png";
 import { Link as Link2} from "react-scroll";
 
 const Header = () => {
+	
 	return (
 		<div className={css(styles.root)}>
 			<div className={css(styles.navBar)}>
@@ -15,22 +16,22 @@ const Header = () => {
 				</div>
 				<div className={css(styles.right)}>
 					<div className={css(styles.pageNavs)}>
-						<Link1 to="/" className={css(styles.links)}>
+						<NavLink exact to="/"  className={css(styles.links)} activeClassName={css(styles.active_link)}>
 							{" "}
 							Home
-						</Link1>
-						<Link1 to="/about" className={css(styles.links)}>
+						</NavLink>
+						<NavLink exact to="/about" className={css(styles.links)} activeClassName={css(styles.active_link)}>
 							{" "}
 							About
-						</Link1>
-						<Link1 className={css(styles.links)} onClick={() => window.location.href="/events"}>
+						</NavLink>
+						<NavLink to className={css(styles.links)} onClick={() => {window.location.href="/events";}}>
 							{" "}
 							Events
-						</Link1>
-						<Link1 to="/team" className={css(styles.links)}>
+						</NavLink>
+						<NavLink exact to="/team" className={css(styles.links)} activeClassName={css(styles.active_link)}>
 							{" "}
 							Team
-						</Link1>
+						</NavLink>
 						<Link2 to="footer" className={css(styles.links)} smooth={true} duration={1500} style={{cursor: "pointer"}}>
 							{" "}
 							Contact Us
@@ -59,6 +60,10 @@ const styles = StyleSheet.create({
 		height: 64,
 		borderRadius: 20,
 		maxWidth: "100%",
+	},
+
+	active_link: {
+		color: "rgb(22, 165, 150)",
 	},
 
 	left: {
