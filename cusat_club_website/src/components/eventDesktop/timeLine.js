@@ -10,31 +10,18 @@ const TimeLine = () => {
 				<div className={css(styles.contents)}>
 					<div className={css(styles.firstRow)}>
 						<div className={css(styles.titleBox)}>
-							
 							<img src="" alt="icn" className={css(styles.titleIcon)} />
 							<span className={css(styles.title)}>TIMELINE</span>
 						</div>
-						{/* <div className={css(styles.iconSec)}>
-							<span className={css(styles.iconText)}>Explore more</span>
-							<div className={css(styles.icons)}>
-								<img src="" alt="more" className={css(styles.icon)} />
-							</div>
-						</div> */}
 					</div>
-					{/* <div className={css(styles.secondRow)}>
-						<img src={Poster} alt="poster" className={css(styles.poster)} />
-						<img src={Poster} alt="poster" className={css(styles.poster)} />
-						<img src={Poster} alt="poster" className={css(styles.poster)} />
-					</div>
-					<div className={css(styles.thirdRow)}>
-						<div className={css(styles.subtTitle)}>
-							CLICK ON THE POSTER TO REGISTER
+					<div className={css(styles.SecondRow)}>
+						<div className="hero">
+							<div id="calendar"></div>
 						</div>
-						<div className={css(styles.motion)}></div>
-					</div> */}
+					</div>
 				</div>
 			</div>
-			<div className={css(styles.container1)}>
+			{/* <div className={css(styles.container1)}>
 				<div className={css(styles.contents)}>
 					<div className={css(styles.firstRow)}>
 						<div className={css(styles.titleBox)}>
@@ -42,26 +29,9 @@ const TimeLine = () => {
 							<img src="" alt="icn" className={css(styles.titleIcon)} />
 							<span className={css(styles.title)}>MEETINGS</span>
 						</div>
-						{/* <div className={css(styles.iconSec)}>
-							<span className={css(styles.iconText)}>Explore more</span>
-							<div className={css(styles.icons)}>
-								<img src="" alt="more" className={css(styles.icon)} />
-							</div>
-						</div> */}
 					</div>
-					{/* <div className={css(styles.secondRow)}>
-						<img src={Poster} alt="poster" className={css(styles.poster)} />
-						<img src={Poster} alt="poster" className={css(styles.poster)} />
-						<img src={Poster} alt="poster" className={css(styles.poster)} />
-					</div>
-					<div className={css(styles.thirdRow)}>
-						<div className={css(styles.subtTitle)}>
-							CLICK ON THE POSTER TO REGISTER
-						</div>
-						<div className={css(styles.motion)}></div>
-					</div> */}
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
@@ -70,7 +40,7 @@ const styles = StyleSheet.create({
 	root: {
 		marginTop: 40,
 		marginLeft: 57,
-		marginRight: 57,
+		marginRight: 18,
 		display: "flex",
 		flexDirection: "row",
 	},
@@ -78,7 +48,9 @@ const styles = StyleSheet.create({
 		background: COLORS.primary,
 		borderRadius: 15,
 		marginRight: 40,
-		// width: 850,
+		width: "100%",
+		padding: 25,
+		paddingTop: 0,
 		// height: 650,
 		
 	},
@@ -91,7 +63,7 @@ const styles = StyleSheet.create({
 	firstRow: {
 		display: "flex",
 		flexDirection: "row",
-		margin: "30px 35px 50px 35px",
+		margin: "30px 35px 30px 35px",
 		justifyContent: "space-between",
 		alignItems: "center",
 	},

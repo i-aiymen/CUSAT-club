@@ -23,7 +23,7 @@ const Header = () => {
 							{" "}
 							About
 						</Link1>
-						<Link1 to="/events" className={css(styles.links)}>
+						<Link1 className={css(styles.links)} onClick={() => window.location.href="/events"}>
 							{" "}
 							Events
 						</Link1>

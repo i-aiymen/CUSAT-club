@@ -277,7 +277,6 @@ const styles = StyleSheet.create({
 	root: {
 		marginTop: 27,
 		marginLeft: 57,
-		marginRight: 57,
 		justifyContent: "center",
 		alignItems: "center",
 	},

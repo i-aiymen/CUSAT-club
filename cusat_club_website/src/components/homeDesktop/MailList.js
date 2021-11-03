@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
 		marginTop: 40,
 		marginLeft: 57,
 		marginRight: 57,
+		
 	},
 	container: {
 		background: COLORS.primary,
@@ -75,6 +76,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		paddingLeft: 15,
 		paddingRight: 15,
+		boxSizing: "content-box"
 	},
 	title: {
 		fontSize: 40,
