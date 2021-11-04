@@ -24,7 +24,7 @@ const Header = () => {
 							{" "}
 							About
 						</NavLink>
-						<NavLink to className={css(styles.links)} onClick={() => {window.location.href="/events";}}>
+						<NavLink exact to="/events" className={css(styles.links)} activeClassName={css(styles.active_link)}>
 							{" "}
 							Events
 						</NavLink>
