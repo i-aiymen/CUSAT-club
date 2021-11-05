@@ -11,41 +11,41 @@ const Footer = () => {
 						<div className={css(styles.follow)}>FOLLOW US</div>
 						<div className={css(styles.socials)}>
 							<img src="" alt="icon" />
-							<span className={css(styles.socialIcon)}></span>
+							<span className={css(styles.socialIcon)}>Linkedin</span>
 						</div>
 						<div className={css(styles.socials)}>
 							<img src="" alt="icon" />
-							<span className={css(styles.socialIcon)}></span>
+							<span className={css(styles.socialIcon)}>Instagram</span>
 						</div>
 						<div className={css(styles.socials)}>
 							<img src="" alt="icon" />
-							<span className={css(styles.socialIcon)}></span>
+							<span className={css(styles.socialIcon)}>Youtube</span>
 						</div>
 						<div className={css(styles.socials)}>
 							<img src="" alt="icon" />
-							<span className={css(styles.socialIcon)}></span>
+							<span className={css(styles.socialIcon)}>Github</span>
 						</div>
-						<div className={css(styles.socials)}>
+						{/* <div className={css(styles.socials)}>
 							<img src="" alt="icon" />
 							<span className={css(styles.socialIcon)}></span>
-						</div>
+						</div> */}
 					</div>
 					<div className={css(styles.secondRow)}>
 						<div className={css(styles.addressIcon)}>
 							<img src="" alt="icon" />
-							<span className={css(styles.addressLinks)}></span>
+							<span className={css(styles.addressLinks)}>+91 XXX XXX XXXX</span>
 						</div>
 						<div className={css(styles.addressIcon)}>
 							<img src="" alt="icon" />
-							<span className={css(styles.addressLinks)}></span>
+							<span className={css(styles.addressLinks)}>cusatclubs@gmail.com</span>
 						</div>
 						<div className={css(styles.addressIcon)}>
 							<img src="" alt="icon" />
-							<span className={css(styles.addressLinks)}></span>
+							<span className={css(styles.addressLinks)}>Kerala, India</span>
 						</div>
 					</div>
 					<div className={css(styles.thirdRow)}>
-						Copyright @ 2021 CUSAT CLUBS & Vasant Joseph. All rights reserved.
+						Copyright @ 2021 CUSAT CLUBS. All rights reserved.
 					</div>
 				</div>
 			</div>
