@@ -1,7 +1,16 @@
 import React from "react";
 import '../../arrow.css';
 import { StyleSheet, css } from "aphrodite";
-import MsAmb from "../../assets/images/microsoftamb.png";
+import MsAmb from "../../assets/images/MSLearn_SA_badge_generic_rgb_300ppi.png";
+import Ieee from "../../assets/images/IEEE black.png";
+import Tink from "../../assets/images/TinkerHub_SOE, CUSAT (1).png";
+import Seds from "../../assets/images/SEDS BLACK LOGO.png";
+import Rob from "../../assets/images/rcc logo (1).png";
+import Pie from "../../assets/images/Pie & AI logo.png";
+import Igbc from "../../assets/images/logo-removebg-preview.png";
+import Code from "../../assets/images/codechef.png";
+import Gdsc from "../../assets/images/GDSC CUSAT  vertical color.png";
+import Agora from "../../assets/images/agoralightblue-1.png";
 import Logo from "../../assets/images/Logo.png";
 // import Arrow from "../../assets/icons/long_down.svg";
 import { COLORS } from "../../styles/Constants";
@@ -34,40 +43,40 @@ const Main = () => {
 				</div>
 				<div className={css(styles.clubCards)}>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<a href="https://ieeecusatsb.in" target='_blank' rel="noopener noreferrer"><img src={Ieee} alt="club-logo" className={css(styles.clubLogo)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
 						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<a href="https://linktr.ee/tinkerhub_cusat" target='_blank' rel="noopener noreferrer"><img src={Tink} alt="club-logo" className={css(styles.clubLogo)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<img src={Seds} alt="club-logo" className={css(styles.clubLogo)} />
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<img src={Rob} alt="club-logo" className={css(styles.clubLogo)} />
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<a href="https://github.com/voldemortuk/Pie-AI-Sessions" target='_blank' rel="noopener noreferrer"><img src={Pie} alt="club-logo" className={css(styles.clubLogo)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<a href="http://igbc-cusat.in" target='_blank' rel="noopener noreferrer"><img src={Igbc} alt="club-logo" className={css(styles.clubLogo)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<img src={Code} alt="club-logo" className={css(styles.clubLogo)} />
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+					<a href="https://gdsc.community.dev/cochin-university-of-science-and-technology/" target='_blank' rel="noopener noreferrer"><img src={Gdsc} alt="club-logo" className={css(styles.clubLogo)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<img src="" alt="" className={css(styles.clubLogo)} />
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<a href="https://www.agora.io/en/blog/how-to-get-started-with-agora/" target='_blank' rel="noopener noreferrer"><img src={Agora} alt="club-logo" className={css(styles.clubLogo1)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={MsAmb} alt="club-logo" className={css(styles.clubLogo)} />
+						<img src={Code} alt="" className={css(styles.clubLogo)} />
 					</div>
 				</div>
 			</div>
@@ -171,8 +180,13 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	clubLogo: {
-		maxWidth: 100,
-		maxHeight: 100,
+		maxWidth: 120,
+		maxHeight: 120,
+	},
+	clubLogo1: {
+		maxWidth: 120,
+		maxHeight: 120,
+		paddingTop: "20px",
 	},
 });
 
