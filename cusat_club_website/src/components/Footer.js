@@ -1,6 +1,11 @@
 import { StyleSheet, css } from "aphrodite";
 import React from "react";
+import "../arrow.css"
 import { COLORS } from "../styles/Constants";
+import Linkedin from "../assets/icons/linkedin.png";
+import Insta from "../assets/icons/insta.png";
+import You from "../assets/icons/youtube.png";
+import Git from "../assets/icons/github-11-256.png";
 const Footer = () => {
 	return (
 		<div className={css(styles.root)} id="footer">
@@ -10,20 +15,20 @@ const Footer = () => {
 					<div className={css(styles.firstRow)}>
 						<div className={css(styles.follow)}>FOLLOW US</div>
 						<div className={css(styles.socials)}>
-							<img src="" alt="icon" />
+							<span className="dot"><img src={Linkedin} alt="icon" className="img"/></span>
 							<span className={css(styles.socialIcon)}>Linkedin</span>
 						</div>
 						<div className={css(styles.socials)}>
-							<img src="" alt="icon" />
-							<span className={css(styles.socialIcon)}>Instagram</span>
+							<span className="dot"><img src={Insta} alt="icon" className="img img1"/></span>
+							<span style={{fontWeight:"bold"}}>Instagram</span>
 						</div>
 						<div className={css(styles.socials)}>
-							<img src="" alt="icon" />
-							<span className={css(styles.socialIcon)}>Youtube</span>
+							<span className="dot"><img src={You} alt="icon" className="img img2"/></span>
+							<span className={css(styles.socialIcon1)}>Youtube</span>
 						</div>
 						<div className={css(styles.socials)}>
-							<img src="" alt="icon" />
-							<span className={css(styles.socialIcon)}>Github</span>
+							<span className="dot"><img src={Git} alt="icon" className="img3"/></span>
+							<span style={{fontWeight:"bold"}}>Github</span>
 						</div>
 						{/* <div className={css(styles.socials)}>
 							<img src="" alt="icon" />
@@ -77,6 +82,9 @@ const styles = StyleSheet.create({
 		columnGap: 50,
 		fontSize: 18,
 	},
+	follow: {
+		fontWeight: "bold"
+	},
 	secondRow: {
 		height: 217,
 		background: COLORS.tertiary,
@@ -94,6 +102,17 @@ const styles = StyleSheet.create({
 		fontSize: 18,
 		margin: 10,
 	},
+	socialIcon: {
+		position: "relative",
+		top: "8px",
+		fontWeight: "bold"
+	},
+	socialIcon1: {
+		position: "relative",
+		top: "3px",
+		fontWeight: "bold"
+	}
+
 });
 
 export default Footer;
