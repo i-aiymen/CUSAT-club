@@ -277,11 +277,12 @@ const styles = StyleSheet.create({
 	root: {
 		marginTop: 27,
 		marginLeft: 57,
+		marginRight: 57,
 		justifyContent: "center",
 		alignItems: "center",
 	},
 	box: {
-		width: "96%",
+		width: "100%",
 		padding: "25px",
 		borderRadius: "20px",
 		background: "transparent linear-gradient(180deg, #4ECDB0 0%, #407ACE 100%) 0% 0% no-repeat padding-box",
