@@ -6,7 +6,7 @@ import { COLORS } from "../styles/Constants";
 import Logo from "../assets/images/Logo.png";
 import { Link as Link2} from "react-scroll";
 
-const Header = () => {
+const Header = ({ event }) => {
 
 	
 	
@@ -28,7 +28,7 @@ const Header = () => {
 							
 							About
 						</NavLink>
-						<a href="/events" className="links" activeClassName={css(styles.active_link)}>
+						<a href="/events" className={event ? "link" : "links"} >
 							Events
 						</a>
 						<NavLink exact to="/team" className="links" activeClassName={css(styles.active_link)}>
@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
 		color: "#1B2F5B",
 		marginLeft: 37,
 	},
+	
 });
 
 export default Header;

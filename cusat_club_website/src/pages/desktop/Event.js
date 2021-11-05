@@ -18,7 +18,7 @@ import Footer from "../../components/Footer";
 const Event = () => {
 	return (
 		<div className={css(styles.root)}>
-			<Header />
+			<Header event={true}/>
             <TimeLine />
             <UpPast />
 			{/* <Main /> */}

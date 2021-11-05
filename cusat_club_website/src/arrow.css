@@ -28,8 +28,21 @@
 	color: #1B2F5B;
 	margin-left: 40px;
 }
+.link {
+	text-decoration: none;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: bold;
+	color: rgb(22, 165, 150);
+	margin-left: 37px;
+	border-bottom: 3px solid rgb(22, 165, 150);
+}
 
 .links:hover {
+	color: rgb(22, 165, 150);
+	border-bottom: 3px solid rgb(22, 165, 150);
+}
+.link:hover {
 	color: rgb(22, 165, 150);
 	border-bottom: 3px solid rgb(22, 165, 150);
 }
