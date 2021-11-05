@@ -7,6 +7,8 @@ import Logo from "../assets/images/Logo.png";
 import { Link as Link2} from "react-scroll";
 
 const Header = () => {
+
+	
 	
 	return (
 		<div className={css(styles.root)}>
@@ -18,23 +20,23 @@ const Header = () => {
 				<div className={css(styles.right)}>
 					<div className={css(styles.pageNavs)}>
 						<NavLink exact to="/"  className="links"  activeClassName={css(styles.active_link)}>
-							{" "}
+							
 							Home
 						</NavLink>
+						
 						<NavLink exact to="/about" className="links" activeClassName={css(styles.active_link)}>
-							{" "}
+							
 							About
 						</NavLink>
-						<NavLink exact to="/events" className="links" activeClassName={css(styles.active_link)}>
-							{" "}
+						<a href="/events" className="links" activeClassName={css(styles.active_link)}>
 							Events
-						</NavLink>
+						</a>
 						<NavLink exact to="/team" className="links" activeClassName={css(styles.active_link)}>
-							{" "}
+							
 							Team
 						</NavLink>
 						<Link2 to="footer" className="links" smooth={true} duration={1500} style={{cursor: "pointer"}}>
-							{" "}
+							
 							Contact Us
 						</Link2>
 					</div>
@@ -65,6 +67,8 @@ const styles = StyleSheet.create({
 
 	active_link: {
 		color: "rgb(22, 165, 150)",
+		borderBottom: "3px solid rgb(22, 165, 150)",
+		// textDecoration: "underline",
 	},
 
 	left: {

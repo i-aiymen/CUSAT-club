@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { COLORS } from "../../styles/Constants";
 import Up from "./Up";
 import Past from "./Past";
+import '../../arrow.css';
 
 const UpPast = () => {
 
@@ -18,7 +19,7 @@ const UpPast = () => {
 							</button>	
 						</div>
 						<div className={css(styles.titleBox1)}>
-							<button type="submit" className={css(styles.title1)} onClick={() => setActive("past")}>
+							<button type="submit" id="past" className={css(styles.title1)} onClick={() => setActive("past")}>
 							PAST EVENTS
 							</button>
 						</div>

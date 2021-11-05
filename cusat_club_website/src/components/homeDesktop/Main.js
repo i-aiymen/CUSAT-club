@@ -5,14 +5,15 @@ import MsAmb from "../../assets/images/MSLearn_SA_badge_generic_rgb_300ppi.png";
 import Ieee from "../../assets/images/IEEE black.png";
 import Tink from "../../assets/images/TinkerHub_SOE, CUSAT (1).png";
 import Seds from "../../assets/images/SEDS BLACK LOGO.png";
-import Rob from "../../assets/images/rcc logo (1).png";
 import Pie from "../../assets/images/Pie & AI logo.png";
 import Igbc from "../../assets/images/logo-removebg-preview.png";
 import Code from "../../assets/images/codechef.png";
 import Gdsc from "../../assets/images/GDSC CUSAT  vertical color.png";
 import Agora from "../../assets/images/agoralightblue-1.png";
+import Sae from "../../assets/images/sae-international-logo-png-transparent.png";
+import Hack from "../../assets/images/hack.png";
+import Horizon from "../../assets/images/horizon.png";
 import Logo from "../../assets/images/Logo.png";
-// import Arrow from "../../assets/icons/long_down.svg";
 import { COLORS } from "../../styles/Constants";
 import { Link } from "react-scroll";
 import {MdSouth} from "react-icons/md"
@@ -55,7 +56,7 @@ const Main = () => {
 						<img src={Seds} alt="club-logo" className={css(styles.clubLogo)} />
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={Rob} alt="club-logo" className={css(styles.clubLogo)} />
+						<a href="http://cucek.hackclub.com" target='_blank' rel="noopener noreferrer"><img src={Hack} alt="club-logo" className={css(styles.clubLogo)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
 						<a href="https://github.com/voldemortuk/Pie-AI-Sessions" target='_blank' rel="noopener noreferrer"><img src={Pie} alt="club-logo" className={css(styles.clubLogo)} /></a>
@@ -70,13 +71,13 @@ const Main = () => {
 					<a href="https://gdsc.community.dev/cochin-university-of-science-and-technology/" target='_blank' rel="noopener noreferrer"><img src={Gdsc} alt="club-logo" className={css(styles.clubLogo)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src="" alt="" className={css(styles.clubLogo)} />
+						<img src={Sae} alt="" className={css(styles.clubLogo)} />
 					</div>
 					<div className={css(styles.clubCard)}>
 						<a href="https://www.agora.io/en/blog/how-to-get-started-with-agora/" target='_blank' rel="noopener noreferrer"><img src={Agora} alt="club-logo" className={css(styles.clubLogo1)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
-						<img src={Code} alt="" className={css(styles.clubLogo)} />
+						<a href="http://cucek.hackclub.com" target='_blank' rel="noopener noreferrer"><img src={Horizon} alt="" className={css(styles.clubLogo)} /></a>
 					</div>
 				</div>
 			</div>
