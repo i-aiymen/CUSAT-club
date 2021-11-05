@@ -1,4 +1,5 @@
 import React from "react";
+import '../arrow.css';
 import { StyleSheet, css } from "aphrodite";
 import { NavLink} from "react-router-dom";
 import { COLORS } from "../styles/Constants";
@@ -16,23 +17,23 @@ const Header = () => {
 				</div>
 				<div className={css(styles.right)}>
 					<div className={css(styles.pageNavs)}>
-						<NavLink exact to="/"  className={css(styles.links)} activeClassName={css(styles.active_link)}>
+						<NavLink exact to="/"  className="links"  activeClassName={css(styles.active_link)}>
 							{" "}
 							Home
 						</NavLink>
-						<NavLink exact to="/about" className={css(styles.links)} activeClassName={css(styles.active_link)}>
+						<NavLink exact to="/about" className="links" activeClassName={css(styles.active_link)}>
 							{" "}
 							About
 						</NavLink>
-						<NavLink exact to="/events" className={css(styles.links)} activeClassName={css(styles.active_link)}>
+						<NavLink exact to="/events" className="links" activeClassName={css(styles.active_link)}>
 							{" "}
 							Events
 						</NavLink>
-						<NavLink exact to="/team" className={css(styles.links)} activeClassName={css(styles.active_link)}>
+						<NavLink exact to="/team" className="links" activeClassName={css(styles.active_link)}>
 							{" "}
 							Team
 						</NavLink>
-						<Link2 to="footer" className={css(styles.links)} smooth={true} duration={1500} style={{cursor: "pointer"}}>
+						<Link2 to="footer" className="links" smooth={true} duration={1500} style={{cursor: "pointer"}}>
 							{" "}
 							Contact Us
 						</Link2>

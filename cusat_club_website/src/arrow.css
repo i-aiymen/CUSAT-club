@@ -19,3 +19,16 @@
 	margin-left: 8px;
 	transform: rotate(90deg);
 }
+
+.links {
+	text-decoration: none;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #1B2F5B;
+	margin-left: 37px;
+}
+
+.links:hover {
+	color: rgb(22, 165, 150);
+}

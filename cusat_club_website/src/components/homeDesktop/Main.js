@@ -171,6 +171,9 @@ const styles = StyleSheet.create({
 		columnGap: 35,
 	},
 	clubCard: {
+		':hover': {
+			opacity: "0.6",
+		},
 		width: "100%",
 		height: "100%",
 		background: COLORS.primary,
