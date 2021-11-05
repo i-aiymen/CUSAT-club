@@ -18,8 +18,59 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
+								<div className={css(styles.name)}>Maya Menon</div>
+								<div className={css(styles.desig)}>Faculty Incharge</div>
+								<div className={css(styles.dep)}>SOE, CUSAT</div>
+								<hr className={css(styles.hr)}/>
+								<div className={css(styles.link)}>
+									<img src="" alt="icn"/>
+									<img src="" alt="icn"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={css(styles.profile_card)}>
+						<div className={css(styles.profile_content)}>
+							<div className={css(styles.profile_image)}>
+								<img src={Img} alt="first user" className={css(styles.img)}/>
+							</div>
+							<div className={css(styles.desc)}>
+								<div className={css(styles.name)}>Utkarsh Raj</div>
+								<div className={css(styles.desig)}>CUSAT CLUB Lead</div>
+								<div className={css(styles.dep)}>S7 CS</div>
+								<hr className={css(styles.hr)}/>
+								<div className={css(styles.link)}>
+									<img src="" alt="icn"/>
+									<img src="" alt="icn"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={css(styles.profile_card)}>
+						<div className={css(styles.profile_content)}>
+							<div className={css(styles.profile_image)}>
+								<img src={Img} alt="first user" className={css(styles.img)}/>
+							</div>
+							<div className={css(styles.desc)}>
+								<div className={css(styles.name)}>Rafi Rasheed</div>
+								<div className={css(styles.desig)}>Hack Club CUCEK - Lead</div>
+								<div className={css(styles.dep)}>S7 EC</div>
+								<hr className={css(styles.hr)}/>
+								<div className={css(styles.link)}>
+									<img src="" alt="icn"/>
+									<img src="" alt="icn"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={css(styles.profile_card)}>
+						<div className={css(styles.profile_content)}>
+							<div className={css(styles.profile_image)}>
+								<img src={Img} alt="first user" className={css(styles.img)}/>
+							</div>
+							<div className={css(styles.desc)}>
+								<div className={css(styles.name)}>Muhammed Ayimen</div>
+								<div className={css(styles.desig)}>Web Developer</div>
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
@@ -35,8 +86,8 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
+								<div className={css(styles.name)}>Ashwin Anil</div>
+								<div className={css(styles.desig)}>Poster Designer</div>
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
@@ -52,8 +103,59 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
+								<div className={css(styles.name)}>Abhinav Rajesh</div>
+								<div className={css(styles.desig)}>Youtube Handle, Video Editing</div>
+								<div className={css(styles.dep)}>S5 CS</div>
+								<hr className={css(styles.hr)}/>
+								<div className={css(styles.link)}>
+									<img src="" alt="icn"/>
+									<img src="" alt="icn"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={css(styles.profile_card)}>
+						<div className={css(styles.profile_content)}>
+							<div className={css(styles.profile_image)}>
+								<img src={Img} alt="first user" className={css(styles.img)}/>
+							</div>
+							<div className={css(styles.desc)}>
+								<div className={css(styles.name)}>Ajal P</div>
+								<div className={css(styles.desig)}>TinkerHub SOE - Lead</div>
+								<div className={css(styles.dep)}>S5 CS</div>
+								<hr className={css(styles.hr)}/>
+								<div className={css(styles.link)}>
+									<img src="" alt="icn"/>
+									<img src="" alt="icn"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={css(styles.profile_card)}>
+						<div className={css(styles.profile_content)}>
+							<div className={css(styles.profile_image)}>
+								<img src={Img} alt="first user" className={css(styles.img)}/>
+							</div>
+							<div className={css(styles.desc)}>
+								<div className={css(styles.name)}>Anusha Maiti</div>
+								<div className={css(styles.desig)}>Social Media Manager</div>
+								<div className={css(styles.dep)}>S5 CS</div>
+								<hr className={css(styles.hr)}/>
+								<div className={css(styles.link)}>
+									<img src="" alt="icn"/>
+									<img src="" alt="icn"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={css(styles.profile_card)}>
+						<div className={css(styles.profile_content)}>
+							<div className={css(styles.profile_image)}>
+								<img src={Img} alt="first user" className={css(styles.img)}/>
+							</div>
+							<div className={css(styles.desc)}>
+								<div className={css(styles.name)}>Anju Suresh</div>
+								<div className={css(styles.desig)}>Designing Team</div>
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
@@ -69,8 +171,8 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
+								<div className={css(styles.name)}>Arya Suresh</div>
+								<div className={css(styles.desig)}>Designing Team</div>
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
@@ -86,9 +188,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Bharath Chandran S</div>
+								<div className={css(styles.desig)}>Hermes Cusat - Lead</div>
+								<div className={css(styles.dep)}>S7 MECH</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -103,9 +205,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Aiswarya A Pisharody</div>
+								<div className={css(styles.desig)}>Chair, IEEE CUSAT SB</div>
+								<div className={css(styles.dep)}>S7 EEE</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -120,9 +222,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Sreelakshmi</div>
+								<div className={css(styles.desig)}>Content Team</div>
+								<div className={css(styles.dep)}>S3 CIVIL</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -137,9 +239,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>R.Nehha Mariam</div>
+								<div className={css(styles.desig)}>President - IRES-SEDS</div>
+								<div className={css(styles.dep)}>S5 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -154,9 +256,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Aswathi NJ</div>
+								<div className={css(styles.desig)}>CUCEK Representative</div>
+								<div className={css(styles.dep)}>S7 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -171,9 +273,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Vasant Joseph</div>
+								<div className={css(styles.desig)}>EC Branch Rep</div>
+								<div className={css(styles.dep)}>S5 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -188,9 +290,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Abhinav TB</div>
+								<div className={css(styles.desig)}>Discord Moderator</div>
+								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -205,9 +307,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Pratheeksha Prakash</div>
+								<div className={css(styles.desig)}>Content Team</div>
+								<div className={css(styles.dep)}>S7 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -222,9 +324,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Midhuna Pavithran</div>
+								<div className={css(styles.desig)}>EEE Branch Rep</div>
+								<div className={css(styles.dep)}>S5 EEE</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -239,26 +341,9 @@ const Main = () => {
 								<img src={Img} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
-								<hr className={css(styles.hr)}/>
-								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className={css(styles.profile_card)}>
-						<div className={css(styles.profile_content)}>
-							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
-							</div>
-							<div className={css(styles.desc)}>
-								<div className={css(styles.name)}>Ayimen</div>
-								<div className={css(styles.desig)}>xxxxxxxxxxxxxxx</div>
-								<div className={css(styles.dep)}>S5 IT</div>
+								<div className={css(styles.name)}>Aswanth KT</div>
+								<div className={css(styles.desig)}>Chair, SAE CUSAT</div>
+								<div className={css(styles.dep)}>S7 MECH</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
 									<img src="" alt="icn"/>
@@ -292,7 +377,7 @@ const styles = StyleSheet.create({
 		justifyItems: "center",
 		justifyContent: "center",
 		gridTemplateColumns: "auto auto auto auto auto", 
-		gridColumnGap: 25,
+		gridColumnGap: 5,
 	},
 	titleBox: {
 		width: "auto",
@@ -318,7 +403,7 @@ const styles = StyleSheet.create({
 	},  
 	profile_card: {
 		backgroundColor: "#ffffff",
-		width: "210px",
+		width: "250px",
 		height: "315px",
 		borderRadius: "20px",
 		margin: "20px 11px 10px 11px",
