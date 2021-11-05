@@ -14,7 +14,7 @@ function App() {
 		return (
 			<BrowserRouter>
 				<div className="App">
-					<h1>Mob view</h1>
+					<h1>Under Maintenance. View in Desktop</h1>
 				</div>
 			</BrowserRouter>
 		);

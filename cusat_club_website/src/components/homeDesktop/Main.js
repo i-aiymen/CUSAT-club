@@ -77,7 +77,7 @@ const Main = () => {
 						<a href="https://www.agora.io/en/blog/how-to-get-started-with-agora/" target='_blank' rel="noopener noreferrer"><img src={Agora} alt="club-logo" className={css(styles.clubLogo1)} /></a>
 					</div>
 					<div className={css(styles.clubCard)}>
-						<a href="http://cucek.hackclub.com" target='_blank' rel="noopener noreferrer"><img src={Horizon} alt="" className={css(styles.clubLogo)} /></a>
+						<img src={Horizon} alt="" className={css(styles.clubLogo)} />
 					</div>
 				</div>
 			</div>

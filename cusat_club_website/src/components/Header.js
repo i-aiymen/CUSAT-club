@@ -68,7 +68,6 @@ const styles = StyleSheet.create({
 	active_link: {
 		color: "rgb(22, 165, 150)",
 		borderBottom: "3px solid rgb(22, 165, 150)",
-		// textDecoration: "underline",
 	},
 
 	left: {
