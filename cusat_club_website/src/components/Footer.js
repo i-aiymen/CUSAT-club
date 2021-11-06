@@ -8,6 +8,7 @@ import You from "../assets/icons/youtube.png";
 import Git from "../assets/icons/github-11-256.png";
 import Mail from "../assets/icons/mail footer.png";
 import Loc from "../assets/icons/location footer.png";
+import Phone from "../assets/icons/phone footer.png";
 const Footer = () => {
 	return (
 		<div className={css(styles.root)} id="footer">
@@ -46,8 +47,8 @@ const Footer = () => {
 						</div> */}
 					</div>
 					<div className={css(styles.secondRow)}>
-						<div className={css(styles.addressIcon)}>
-							<img src={Mail} alt="icon" className="foot_icon"/>
+						<div className={css(styles.addressIcon1)}>
+							<img src={Phone} alt="icon" className="foot_icon"/>
 							<span className="addressLinks">+91 823 580 1382</span>
 						</div>
 						<a href="mailto:cusatclubs@gmail.com">
@@ -83,6 +84,9 @@ const styles = StyleSheet.create({
 		height: 5,
 		background: COLORS.primary,
 		marginBottom: 10,
+	},
+	addressIcon1: {
+		marginBottom: 15
 	},
 	firstRow: {
 		height: 80,
