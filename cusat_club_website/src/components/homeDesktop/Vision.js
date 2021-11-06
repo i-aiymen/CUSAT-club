@@ -1,6 +1,8 @@
 import { StyleSheet, css } from "aphrodite";
 import React from "react";
 import { COLORS } from "../../styles/Constants";
+import Mission from "../../assets/icons/MISSION.png";
+import VisionM from "../../assets/icons/VISION.png";
 
 const Vision = () => {
 	return (
@@ -9,7 +11,7 @@ const Vision = () => {
 				<div className={css(styles.missionCard)}>
 					<div className={css(styles.cardContents)}>
 						<div className={css(styles.titleBox)}>
-							<img src="" alt="icn" className={css(styles.titleIcon)} />
+							<img src={Mission} alt="icn" className={css(styles.titleIcon)} />
 							<span className={css(styles.title)}>MISSION</span>
 						</div>
 						<div className={css(styles.description)}>
@@ -26,7 +28,7 @@ const Vision = () => {
 				<div className={css(styles.visionCard)}>
 					<div className={css(styles.cardContents)}>
 						<div className={css(styles.titleBox)}>
-							<img src="" alt="icn" className={css(styles.titleIcon)} />
+							<img src={VisionM} alt="icn" className={css(styles.titleIcon)} />
 							<span className={css(styles.title)}>VISION</span>
 						</div>
 						<div className={css(styles.description)}>
@@ -90,6 +92,8 @@ const styles = StyleSheet.create({
 	},
 	titleIcon: {
 		marginRight: 11,
+		width: "40px",
+		height: "40px"
 	},
 	title: {
 		fontSize: 30,
