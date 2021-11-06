@@ -2,6 +2,7 @@ import { StyleSheet, css } from "aphrodite";
 import React from "react";
 import Poster from "../../assets/images/event.png";
 import { COLORS } from "../../styles/Constants";
+import UPCOMING from "../../assets/icons/UPCOMING.png";
 
 const UpEvents = () => {
 	return (
@@ -10,15 +11,15 @@ const UpEvents = () => {
 				<div className={css(styles.contents)}>
 					<div className={css(styles.firstRow)}>
 						<div className={css(styles.titleBox)}>
-							<img src="" alt="icn" className={css(styles.titleIcon)} />
+							<img src={UPCOMING} alt="icn" className={css(styles.titleIcon)} />
 							<span className={css(styles.title)}>UPCOMING EVENTS</span>
 						</div>
-						<div className={css(styles.iconSec)}>
+						{/* <div className={css(styles.iconSec)}>
 							<span className={css(styles.iconText)}>Explore more</span>
 							<div className={css(styles.icons)}>
 								<img src="" alt="more" className={css(styles.icon)} />
 							</div>
-						</div>
+						</div> */}
 					</div>
 					<div className={css(styles.secondRow)}>
 						<img src={Poster} alt="poster" className={css(styles.poster)} />
@@ -76,6 +77,8 @@ const styles = StyleSheet.create({
 	},
 	titleIcon: {
 		marginRight: 11,
+		width: "40px",
+		height: "40px"
 	},
 	iconSec: {
 		display: "flex",
