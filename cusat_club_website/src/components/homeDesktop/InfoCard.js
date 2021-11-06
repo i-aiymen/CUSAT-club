@@ -1,15 +1,16 @@
 import { StyleSheet, css } from "aphrodite";
 import React from "react";
 import { COLORS } from "../../styles/Constants";
+import Eng from "../../assets/icons/want to engineer your future.png";
 
 const InfoCard = () => {
 	return (
 		<div className={css(styles.root)}>
 			<div className={css(styles.container)}>
 				<div className={css(styles.titleBox)}>
-					<img src="" alt="icn" className={css(styles.titleIcon)} />
+					<img src={Eng} alt="icn" className={css(styles.titleIcon)} />
 					<span className={css(styles.title)}>
-						WANT TO ENGINEER YOUR FUTURE
+						WANT TO ENGINEER YOUR FUTURE?
 					</span>
 				</div>
 				<div className={css(styles.whiteCards)}>
@@ -45,7 +46,7 @@ const styles = StyleSheet.create({
 		flexDirection: "column",
 	},
 	titleBox: {
-		maxWidth: 770,
+		maxWidth: 820,
 		width: "auto",
 		height: 58,
 		borderRadius: 7,
@@ -62,6 +63,11 @@ const styles = StyleSheet.create({
 		fontWeight: "bold",
 		lineHeight: "50px",
 		color: COLORS.primary,
+	},
+	titleIcon: {
+		marginRight: 11,
+		width: "40px",
+		height: "40px"
 	},
 	whiteCards: {
 		display: "flex",
