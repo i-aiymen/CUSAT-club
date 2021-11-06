@@ -1,8 +1,16 @@
 import { StyleSheet, css } from "aphrodite";
 import React from "react";
+import "../../arrow.css"
 import Poster from "../../assets/logo/event.png";
 import { COLORS } from "../../styles/Constants";
 import UPCOMING from "../../assets/icons/UPCOMING.png";
+import Carousel from "react-elastic-carousel";
+
+const breakPoints = [
+	{ width: 1, itemsToShow: 1 },
+	{ width: 550, itemsToShow: 2 },
+	{ width: 768, itemsToShow: 3 },
+];
 
 const UpEvents = () => {
 	return (
@@ -14,18 +22,15 @@ const UpEvents = () => {
 							<img src={UPCOMING} alt="icn" className={css(styles.titleIcon)} />
 							<span className={css(styles.title)}>UPCOMING EVENTS</span>
 						</div>
-						{/* <div className={css(styles.iconSec)}>
-							<span className={css(styles.iconText)}>Explore more</span>
-							<div className={css(styles.icons)}>
-								<img src="" alt="more" className={css(styles.icon)} />
-							</div>
-						</div> */}
 					</div>
-					<div className={css(styles.secondRow)}>
+					<Carousel breakPoints={breakPoints} showArrows={false}>
 						<img src={Poster} alt="poster" className={css(styles.poster)} />
 						<img src={Poster} alt="poster" className={css(styles.poster)} />
 						<img src={Poster} alt="poster" className={css(styles.poster)} />
-					</div>
+						<img src={Poster} alt="poster" className={css(styles.poster)} />
+						<img src={Poster} alt="poster" className={css(styles.poster)} />
+						<img src={Poster} alt="poster" className={css(styles.poster)} />
+					</Carousel>
 					<div className={css(styles.thirdRow)}>
 						<div className={css(styles.subtTitle)}>
 							CLICK ON THE POSTER TO REGISTER
@@ -104,11 +109,11 @@ const styles = StyleSheet.create({
 		':hover': {
 			opacity: "0.8",
 		},
-		minWidth: 335,
-		minHeight: 335,
+		margin: "0 25px",
+		minWidth: 300,
+		minHeight: 300,
 		borderRadius: 15,
 		cursor: "pointer"
-
 	},
 
 	thirdRow: {
@@ -122,12 +127,8 @@ const styles = StyleSheet.create({
 		lineHeight: "37px",
 	},
 	motion: {
-		width: 52,
-		height: 12,
-		borderRadius: 120,
-		background: COLORS.tertiary,
 		marginTop: 15,
-		marginBottom: 30,
+		marginBottom: 15,
 	},
 });
 
