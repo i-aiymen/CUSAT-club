@@ -2,6 +2,7 @@ import { StyleSheet, css } from "aphrodite";
 import React from "react";
 import { COLORS } from "../../styles/Constants";
 import Mail from "../../assets/icons/MAIL.png";
+import "../../arrow.css"
 
 const MailList = () => {
 	return (
@@ -14,7 +15,11 @@ const MailList = () => {
 				<div className={css(styles.description)}>
 					Get weekly access to our webinars, career tips and more...
 				</div>
-				<div className={css(styles.formContainer)}>
+				<div className="gform">
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIGpijZxKGkPAJ4SWOT6cWqc1Hber5H5do_irRvdgcRyMMEg/viewform?embedded=true" scrolling="no" width="750" height="1782"  title="CUSAT Club" frameborder="0" marginheight="0" marginwidth="0" className="form">Loading…</iframe>
+				</div>
+				
+				{/* <div className={css(styles.formContainer)}>
 					<form className={css(styles.form)}>
 						<input
 							type="text"
@@ -45,7 +50,7 @@ const MailList = () => {
 							<span>You have joined✔</span>
 						</div>
 					</form>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
