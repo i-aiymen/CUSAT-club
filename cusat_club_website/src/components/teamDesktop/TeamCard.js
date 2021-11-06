@@ -6,7 +6,25 @@ import { COLORS } from "../../styles/Constants";
 import Team from "../../assets/icons/Teams 2nd page.png";
 import Mail from "../../assets/icons/MAIL.png";
 import Link from "../../assets/icons/linkedin.png";
-
+import Ayimen from "../../assets/images/aiymen.jpg";
+import Rafi from "../../assets/images/rafi.jpg";
+import Ashwin from "../../assets/images/ashwin.jpg";
+import Abhinav from "../../assets/images/abhinav.jpg";
+import Ajal from "../../assets/images/ajal.jpg";
+import Vyshnav from "../../assets/images/vyshnav.jpg";
+import Anusha from "../../assets/images/anusha.jpg";
+import Anju from "../../assets/images/anju.jpg";
+import Arya from "../../assets/images/arya.jpg";
+import Bharath from "../../assets/images/bharath.jpg";
+import Aiswarya from "../../assets/images/aiswarya.jpg";
+import Sreelakshmi from "../../assets/images/sreelakshmi.jpg";
+import Nehha from "../../assets/images/nehha.jpg";
+import Ashwathi from "../../assets/images/ashwathi.jpg";
+import Vasant from "../../assets/images/vasant.jpg";
+import Tb from "../../assets/images/tb.jpg";
+import Pratheeksha from "../../assets/images/pratheeksha.jpg";
+import Midhuna from "../../assets/images/midhuna.jpg";
+import Aswanth from "../../assets/images/aswanth.jpg";
 
 const Main = () => {
 	return (
@@ -56,7 +74,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Rafi} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Rafi Rasheed</div>
@@ -73,7 +91,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Ayimen} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Muhammed Ayimen</div>
@@ -90,7 +108,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Ashwin} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Ashwin Anil</div>
@@ -107,7 +125,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Abhinav} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Abhinav Rajesh</div>
@@ -124,7 +142,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Ajal} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Ajal P</div>
@@ -141,7 +159,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Vyshnav} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Vyshnav KS</div>
@@ -158,7 +176,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Anusha} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Anusha Maiti</div>
@@ -175,7 +193,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Anju} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Anju Suresh</div>
@@ -192,7 +210,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Arya} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Arya Suresh</div>
@@ -209,7 +227,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Bharath} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Bharath Chandran S</div>
@@ -226,7 +244,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Aiswarya} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Aiswarya A Pisharody</div>
@@ -243,7 +261,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Sreelakshmi} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Sreelakshmi</div>
@@ -260,7 +278,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Nehha} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>R.Nehha Mariam</div>
@@ -277,7 +295,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Ashwathi} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Aswathi NJ</div>
@@ -294,7 +312,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Vasant} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Vasant Joseph</div>
@@ -311,7 +329,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Tb} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Abhinav TB</div>
@@ -328,7 +346,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Pratheeksha} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Pratheeksha Prakash</div>
@@ -345,7 +363,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Midhuna} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Midhuna Pavithran</div>
@@ -362,7 +380,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Aswanth} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Aswanth KT</div>
