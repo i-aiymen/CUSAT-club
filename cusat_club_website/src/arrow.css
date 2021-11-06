@@ -182,3 +182,40 @@
 	top: 5px;
 }
 
+@media only screen and (max-width: 1870px) {
+	.dot1 {
+		height: 35px;
+		width: 35px;
+	}
+
+	.Social {
+		width: 25px;
+		height: 25px;
+	}
+
+	.Social1 {
+		top: 7px;
+	}
+	.dot1.dot2 {
+		bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.dot1 {
+		height: 30px;
+		width: 30px;
+	}
+
+	.Social {
+		width: 20px;
+		height: 20px;
+	}
+
+	.Social1 {
+		top: 6px;
+	}
+	.dot1.dot2 {
+		bottom: 6px;
+	}
+}

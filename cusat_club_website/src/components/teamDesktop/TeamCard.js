@@ -1,7 +1,6 @@
 import React from "react";
 import "../../arrow.css"
 import { StyleSheet, css } from "aphrodite";
-import Img from "../../assets/logo/img.jpg";
 import { COLORS } from "../../styles/Constants";
 import Team from "../../assets/icons/Teams 2nd page.png";
 import Mail from "../../assets/icons/MAIL.png";
@@ -25,6 +24,8 @@ import Tb from "../../assets/images/tb.jpg";
 import Pratheeksha from "../../assets/images/pratheeksha.jpg";
 import Midhuna from "../../assets/images/midhuna.jpg";
 import Aswanth from "../../assets/images/aswanth.jpg";
+import Utkarsh from "../../assets/images/Utkarsh.jpg";
+import Maya from "../../assets/images/Maya.jpg";
 
 const Main = () => {
 	return (
@@ -40,7 +41,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Maya} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Maya Menon</div>
@@ -57,7 +58,7 @@ const Main = () => {
 					<div className={css(styles.profile_card)}>
 						<div className={css(styles.profile_content)}>
 							<div className={css(styles.profile_image)}>
-								<img src={Img} alt="first user" className={css(styles.img)}/>
+								<img src={Utkarsh} alt="first user" className={css(styles.img)}/>
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Utkarsh Raj</div>
@@ -451,7 +452,12 @@ const styles = StyleSheet.create({
 	link: {
 		marginTop: "10px",
 		marginBottom: "5px",
-		marginLeft: "20px"
+		marginLeft: "20px",
+		'@media only screen and (max-width: 1870px)': {
+			marginTop: "15px"
+
+		},
+		
 	},  
 	profile_card: {
 		backgroundColor: "#ffffff",
@@ -459,6 +465,20 @@ const styles = StyleSheet.create({
 		height: "325px",
 		borderRadius: "20px",
 		margin: "20px 11px 10px 11px",
+		'@media only screen and (max-width: 1870px)': {
+			width: "310px",
+			height: "410px"
+
+		},
+		'@media only screen and (max-width: 1680px)': {
+			width: "270px",
+			height: "385px"
+
+		},
+		'@media only screen and (max-width: 1500px)': {
+			width: "240px",
+			height: "355px",
+		},
 	},
 	profile_content: {
 		padding:"15px",
@@ -468,6 +488,21 @@ const styles = StyleSheet.create({
 		width: "160px",
 		height: "154px",
 		borderRadius: "20px",
+		'@media only screen and (max-width: 1870px)': {
+			width: "220px",
+			height: "200px",
+			marginTop: "10px"
+
+		},
+		'@media only screen and (max-width: 1680px)': {
+			width: "195px",
+			height: "189px"
+
+		},
+		'@media only screen and (max-width: 1500px)': {
+			width: "180px",
+			height: "174px",
+		},
 	},
 	profile_image: { 
 		textAlign: "center",
@@ -480,17 +515,49 @@ const styles = StyleSheet.create({
 		fontSize: "18px",
 		fontWeight: 900,
 		marginTop: "10px",
+		'@media only screen and (max-width: 1870px)': {
+			fontSize: "20px",
+
+		},
+		'@media only screen and (max-width: 1680px)': {
+			fontSize: "18px",
+
+		},
+		'@media (max-width: 1500px)': {
+			fontSize: "14px",
+
+		},
 	},  
 	desig: {
 	fontSize: "15px",
 	fontWeight: "bold",
 	color: "#3B3735",
 	marginTop: "5px",
+	'@media only screen and (max-width: 1870px)': {
+		fontSize: "18px",
+
+	},
+	'@media only screen and (max-width: 1680px)': {
+		fontSize: "16px",
+
+	},
+	'@media (max-width: 1500px)': {
+		fontSize: "13px",
+
+	},
 	},
 	dep: {
 		color: "#3B3735",
 		fontSize: "15px",
 		marginTop: "5px",
+		'@media only screen and (max-width: 1870px)': {
+			fontSize: "18px",
+	
+		},
+		'@media only screen and (max-width: 1680px)': {
+			fontSize: "14px",
+	
+		},
 	},
 	hr: {
 		height:"2px",
@@ -498,9 +565,21 @@ const styles = StyleSheet.create({
 		border: "1px solid #428AC7",
 		background: "#428AC7",
 		borderRadius: "50px",
-		marginLeft: "11px",
+		marginLeft: "20px",
 		marginRight: "11px",
 		marginTop: "10px",
+		'@media only screen and (max-width: 1870px)': {
+			width: "220px",
+			marginLeft: "28px",
+
+		},
+		'@media only screen and (max-width: 1680px)': {
+			width: "195px",
+		},
+		'@media only screen and (max-width: 1500px)': {
+			width: "180px",
+			marginLeft: "17px",
+		},
 	},
 });
 
