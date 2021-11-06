@@ -3,7 +3,7 @@ import '../arrow.css';
 import { StyleSheet, css } from "aphrodite";
 import { NavLink} from "react-router-dom";
 import { COLORS } from "../styles/Constants";
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/logo/Logo.png";
 import { Link as Link2} from "react-scroll";
 
 const Header = ({ event }) => {

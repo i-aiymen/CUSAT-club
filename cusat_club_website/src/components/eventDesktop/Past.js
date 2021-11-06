@@ -1,6 +1,6 @@
 import { StyleSheet, css } from "aphrodite";
 import React from "react";
-import Poster from "../../assets/images/event.png";
+import Poster from "../../assets/logo/event.png";
 import { COLORS } from "../../styles/Constants";
 
 const Up = () => {

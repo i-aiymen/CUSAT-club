@@ -1,7 +1,7 @@
 import React from "react";
 import "../../arrow.css"
 import { StyleSheet, css } from "aphrodite";
-import Img from "../../assets/images/img.jpg";
+import Img from "../../assets/logo/img.jpg";
 import { COLORS } from "../../styles/Constants";
 import Team from "../../assets/icons/Teams 2nd page.png";
 import Mail from "../../assets/icons/MAIL.png";
