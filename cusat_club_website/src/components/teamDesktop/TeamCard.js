@@ -30,8 +30,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>SOE, CUSAT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:maya.menon@cusat.ac.in" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/maya-menon-50bb675/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -47,8 +47,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:utkarsh02dec@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/utkarsh-raj-906917171/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -64,8 +64,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:mail@rafirasheed.co" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/rafitc/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -81,8 +81,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:aiymenlatheef03@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/aiymenlatheef/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -98,8 +98,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:anilashwin2001@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/ashwin-anil-097161190/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -115,8 +115,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:abhinavrajesh49@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/abhinavrajesh/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -132,8 +132,25 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:ajal.p1999@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/ajal/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={css(styles.profile_card)}>
+						<div className={css(styles.profile_content)}>
+							<div className={css(styles.profile_image)}>
+								<img src={Img} alt="first user" className={css(styles.img)}/>
+							</div>
+							<div className={css(styles.desc)}>
+								<div className={css(styles.name)}>Vyshnav KS</div>
+								<div className={css(styles.desig)}>Web Developer</div>
+								<div className={css(styles.dep)}>S5 CS</div>
+								<hr className={css(styles.hr)}/>
+								<div className={css(styles.link)}>
+									<a href="mailto:vyshnavks85@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/vyshnav-ks-a5b5351a5/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -149,8 +166,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:anushamr141022@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/anusha-maiti-533115198" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -166,8 +183,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:anjusuresh2001@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/anjusuresh10" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -183,8 +200,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:aryasuresh9876@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/arya-suresh-a56797179" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -200,8 +217,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 MECH</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:bharathchandran64@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/bharath-chandran-s-973396201/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -217,8 +234,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 EEE</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:aiswaryaarun4@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/aiswarya-a-pisharody-9b8949169" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -234,8 +251,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S3 CIVIL</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:jsreelakshmi70@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/sreelakshmi-j-30a802204" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -251,8 +268,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:Rknmariam@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/nehhamariamrenju" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -268,8 +285,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:aswathinj@ug.cusat.ac.in" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/aswathi-nj" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -285,8 +302,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:vasantjoseph@live.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/vasantjoseph/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -302,8 +319,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:abhinavtb@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/abhinav-t-b-226172190/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -319,8 +336,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:pratheekshaprakash0108@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/pratheeksha-prakash" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -336,8 +353,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 EEE</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:midhunapavi05@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/midhuna-pavithran-aab7161b7" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -353,8 +370,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 MECH</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
-									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+									<a href="mailto:aswanth.kt.1@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="https://www.linkedin.com/in/aswanth-kt-366b31197" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
