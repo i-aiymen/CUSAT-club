@@ -6,6 +6,8 @@ import Linkedin from "../assets/icons/linkedin.png";
 import Insta from "../assets/icons/insta.png";
 import You from "../assets/icons/youtube.png";
 import Git from "../assets/icons/github-11-256.png";
+import Mail from "../assets/icons/mail footer.png";
+import Loc from "../assets/icons/location footer.png";
 const Footer = () => {
 	return (
 		<div className={css(styles.root)} id="footer">
@@ -37,16 +39,16 @@ const Footer = () => {
 					</div>
 					<div className={css(styles.secondRow)}>
 						<div className={css(styles.addressIcon)}>
-							<img src="" alt="icon" />
-							<span className={css(styles.addressLinks)}>+91 XXX XXX XXXX</span>
+							<img src={Mail} alt="icon" className="foot_icon"/>
+							<span className="addressLinks">+91 823 580 1382</span>
 						</div>
 						<div className={css(styles.addressIcon)}>
-							<img src="" alt="icon" />
-							<span className={css(styles.addressLinks)}>cusatclubs@gmail.com</span>
+							<img src={Mail} alt="icon" className="foot_icon1"/>
+							<span className="addressLinks">cusatclubs@gmail.com</span>
 						</div>
 						<div className={css(styles.addressIcon)}>
-							<img src="" alt="icon" />
-							<span className={css(styles.addressLinks)}>Kerala, India</span>
+							<img src={Loc} alt="icon" className="foot_icon2"/>
+							<span className="addressLinks">Kerala, India</span>
 						</div>
 					</div>
 					<div className={css(styles.thirdRow)}>

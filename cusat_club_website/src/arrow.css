@@ -86,3 +86,23 @@
 .club {
 	color: black;
 }
+
+.foot_icon {
+	float: left;
+	margin-left: 45px;
+}
+.foot_icon1 {
+	float: left;
+	margin-left:55px;
+}
+
+.foot_icon2 {
+	float: left;
+	margin-left: 20px;
+}
+
+.addressLinks {
+	float: left;
+	clear: left;
+	margin-top: 20px;
+}
