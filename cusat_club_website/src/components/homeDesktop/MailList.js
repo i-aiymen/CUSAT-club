@@ -1,13 +1,14 @@
 import { StyleSheet, css } from "aphrodite";
 import React from "react";
 import { COLORS } from "../../styles/Constants";
+import Mail from "../../assets/icons/MAIL.png";
 
 const MailList = () => {
 	return (
 		<div className={css(styles.root)}>
 			<div className={css(styles.container)}>
 				<div className={css(styles.titleBox)}>
-					<img src="" alt="icn" className={css(styles.titleIcon)} />
+					<img src={Mail} alt="icn" className={css(styles.titleIcon)} />
 					<span className={css(styles.title)}>JOIN OUR MAILING LIST</span>
 				</div>
 				<div className={css(styles.description)}>
@@ -66,7 +67,7 @@ const styles = StyleSheet.create({
 		color: COLORS.tertiary,
 	},
 	titleBox: {
-		maxWidth: 520,
+		maxWidth: 550,
 		height: 58,
 		borderRadius: 7,
 		background: COLORS.tertiary,
@@ -83,6 +84,11 @@ const styles = StyleSheet.create({
 		fontWeight: "bold",
 		lineHeight: "50px",
 		color: COLORS.primary,
+	},
+	titleIcon: {
+		marginRight: 11,
+		width: "40px",
+		height: "40px"
 	},
 	description: {
 		fontSize: 25,
