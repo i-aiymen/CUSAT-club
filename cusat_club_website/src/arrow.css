@@ -57,6 +57,46 @@
 	margin-right: 15px;
   }
 
+  .socials {
+	cursor: pointer;
+  }
+  .socials:hover .dot {
+	  background-color: rgb(212, 136, 123);
+  }
+  .socials:hover .socialIcon {
+	color: rgb(212, 136, 123);
+  }
+  .socials:hover .socialIcon1 {
+	color: rgb(212, 136, 123);
+  }
+  .socials:hover .soc {
+	color: rgb(212, 136, 123);
+  }
+  a {
+	  text-decoration: none;
+  }
+
+  .soc {
+	  font-weight: bold;
+	  color: rgb(22, 165, 150);
+  }
+  .socialIcon {
+	position: relative;
+	color: rgb(22, 165, 150);
+	top: 8px;
+	font-weight: bold;
+}
+.socialIcon1 {
+	position: relative;
+	top: 3px;
+	color: rgb(22, 165, 150);
+	font-weight: bold;
+}
+
+  /* .dot:hover {
+	  background-color: rgb(212, 136, 123);
+  } */
+
   .img {
 	position: relative;
 	top: 10px;
@@ -106,4 +146,9 @@
 	float: left;
 	clear: left;
 	margin-top: 20px;
+	color: white;
+}
+
+.addressLinks:hover {
+	opacity: 0.6;
 }

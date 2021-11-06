@@ -16,22 +16,30 @@ const Footer = () => {
 				<div className={css(styles.footer)}>
 					<div className={css(styles.firstRow)}>
 						<div className={css(styles.follow)}>FOLLOW US</div>
-						<div className={css(styles.socials)}>
-							<span className="dot"><img src={Linkedin} alt="icon" className="img"/></span>
-							<span className={css(styles.socialIcon)}>Linkedin</span>
-						</div>
-						<div className={css(styles.socials)}>
-							<span className="dot"><img src={Insta} alt="icon" className="img img1"/></span>
-							<span style={{fontWeight:"bold"}}>Instagram</span>
-						</div>
-						<div className={css(styles.socials)}>
-							<span className="dot"><img src={You} alt="icon" className="img img2"/></span>
-							<span className={css(styles.socialIcon1)}>Youtube</span>
-						</div>
-						<div className={css(styles.socials)}>
-							<span className="dot"><img src={Git} alt="icon" className="img3"/></span>
-							<span style={{fontWeight:"bold"}}>Github</span>
-						</div>
+						<a href="https://www.linkedin.com/company/cusat-clubs/" target='_blank' rel="noopener noreferrer">
+							<div className="socials">
+								<span className="dot"><img src={Linkedin} alt="icon" className="img"/></span>
+								<span className="socialIcon">Linkedin</span>
+							</div>
+						</a>
+						<a href="https://instagram.com/cusatclubs" target='_blank' rel="noopener noreferrer">
+							<div className="socials">
+								<span className="dot"><img src={Insta} alt="icon" className="img img1"/></span>
+								<span className="soc">Instagram</span>
+							</div>
+						</a>
+						<a href="https://youtube.com/channel/UCHNnMXlyn5tQIz71Fdp-6tg" target='_blank' rel="noopener noreferrer">
+							<div className="socials">
+								<span className="dot"><img src={You} alt="icon" className="img img2"/></span>
+								<span className="socialIcon1">Youtube</span>
+							</div>
+						</a>
+						<a href="https://github.com/cusat-clubs" target='_blank' rel="noopener noreferrer">
+							<div className="socials">
+								<span className="dot"><img src={Git} alt="icon" className="img3"/></span>
+								<span className="soc">Github</span>
+							</div>
+						</a>
 						{/* <div className={css(styles.socials)}>
 							<img src="" alt="icon" />
 							<span className={css(styles.socialIcon)}></span>
@@ -42,10 +50,13 @@ const Footer = () => {
 							<img src={Mail} alt="icon" className="foot_icon"/>
 							<span className="addressLinks">+91 823 580 1382</span>
 						</div>
-						<div className={css(styles.addressIcon)}>
-							<img src={Mail} alt="icon" className="foot_icon1"/>
-							<span className="addressLinks">cusatclubs@gmail.com</span>
-						</div>
+						<a href="mailto:cusatclubs@gmail.com">
+							<div className={css(styles.addressIcon)}>
+								<img src={Mail} alt="icon" className="foot_icon1"/>
+								<span className="addressLinks">cusatclubs@gmail.com</span>
+							</div>
+						</a>
+
 						<div className={css(styles.addressIcon)}>
 							<img src={Loc} alt="icon" className="foot_icon2"/>
 							<span className="addressLinks">Kerala, India</span>
@@ -87,6 +98,7 @@ const styles = StyleSheet.create({
 	follow: {
 		fontWeight: "bold"
 	},
+	
 	secondRow: {
 		height: 217,
 		background: COLORS.tertiary,
@@ -104,16 +116,7 @@ const styles = StyleSheet.create({
 		fontSize: 18,
 		margin: 10,
 	},
-	socialIcon: {
-		position: "relative",
-		top: "8px",
-		fontWeight: "bold"
-	},
-	socialIcon1: {
-		position: "relative",
-		top: "3px",
-		fontWeight: "bold"
-	}
+	
 
 });
 
