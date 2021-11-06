@@ -56,6 +56,24 @@
 	display: inline-block;
 	margin-right: 15px;
   }
+  .dot1 {
+	position: relative;
+	height: 27px;
+	width: 27px;
+	background-color: rgb(66, 138, 199);
+	border-radius: 6px;
+	display: inline-block;
+	margin-right: 20px;
+	bottom: 3px;
+  }
+
+  .dot1.dot2 {
+	  bottom: 5px;
+  }
+
+  .dot1:hover {
+	  background-color: rgb(22, 165, 150);
+  }
 
   .socials {
 	cursor: pointer;
@@ -152,3 +170,15 @@
 .addressLinks:hover {
 	opacity: 0.6;
 }
+
+.Social {
+	position: relative;
+	top: 4px;
+	width: 19px;
+	height: 19px;
+}
+.Social1 {
+	position: relative;
+	top: 5px;
+}
+

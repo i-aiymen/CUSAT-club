@@ -1,8 +1,12 @@
 import React from "react";
+import "../../arrow.css"
 import { StyleSheet, css } from "aphrodite";
 import Img from "../../assets/images/img.jpg";
 import { COLORS } from "../../styles/Constants";
 import Team from "../../assets/icons/Teams 2nd page.png";
+import Mail from "../../assets/icons/MAIL.png";
+import Link from "../../assets/icons/linkedin.png";
+
 
 const Main = () => {
 	return (
@@ -26,8 +30,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>SOE, CUSAT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -43,8 +47,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -60,8 +64,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -77,8 +81,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -94,8 +98,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -111,8 +115,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -128,8 +132,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -145,8 +149,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -162,8 +166,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -179,8 +183,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 IT</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -196,8 +200,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 MECH</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -213,8 +217,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 EEE</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -230,8 +234,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S3 CIVIL</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -247,8 +251,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -264,8 +268,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -281,8 +285,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -298,8 +302,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -315,8 +319,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 EC</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -332,8 +336,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S5 EEE</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -349,8 +353,8 @@ const Main = () => {
 								<div className={css(styles.dep)}>S7 MECH</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>
-									<img src="" alt="icn"/>
-									<img src="" alt="icn"/>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="#" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
@@ -405,14 +409,19 @@ const styles = StyleSheet.create({
 		width: "40px",
 		height: "40px"
 	},
+	social: {
+		width: "20px",
+		height: "20px"
+	},
 	link: {
-		marginTop: "5px",
+		marginTop: "10px",
 		marginBottom: "5px",
+		marginLeft: "20px"
 	},  
 	profile_card: {
 		backgroundColor: "#ffffff",
 		width: "250px",
-		height: "315px",
+		height: "325px",
 		borderRadius: "20px",
 		margin: "20px 11px 10px 11px",
 	},
