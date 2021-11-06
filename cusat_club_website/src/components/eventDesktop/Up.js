@@ -2,18 +2,28 @@ import { StyleSheet, css } from "aphrodite";
 import React from "react";
 import Poster from "../../assets/logo/event.png";
 import { COLORS } from "../../styles/Constants";
+import Carousel from "react-elastic-carousel";
+
+const breakPoints = [
+	{ width: 1, itemsToShow: 1 },
+	{ width: 550, itemsToShow: 2 },
+	{ width: 768, itemsToShow: 3 },
+];
 
 const Up = () => {
 
 	return (
 
         <>
-        <div className={css(styles.secondRow)}>
-            <img src={Poster} alt="poster" className={css(styles.poster)} />
-            <img src={Poster} alt="poster" className={css(styles.poster)} />
-            <img src={Poster} alt="poster" className={css(styles.poster)} />
-        </div>
-        <div className={css(styles.thirdRow)}>
+			<Carousel breakPoints={breakPoints}>
+				<img src={Poster} alt="poster" className={css(styles.poster)} />
+				<img src={Poster} alt="poster" className={css(styles.poster)} />
+				<img src={Poster} alt="poster" className={css(styles.poster)} />
+				<img src={Poster} alt="poster" className={css(styles.poster)} />
+				<img src={Poster} alt="poster" className={css(styles.poster)} />
+				<img src={Poster} alt="poster" className={css(styles.poster)} />
+			</Carousel>
+			<div className={css(styles.thirdRow)}>
             <div className={css(styles.subtTitle)}>
                 CLICK ON THE POSTER TO REGISTER
             </div>
@@ -40,9 +50,14 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	poster: {
-		minWidth: 335,
-		minHeight: 335,
+		':hover': {
+			opacity: "0.8",
+		},
+		margin: "0 25px",
+		minWidth: 300,
+		minHeight: 300,
 		borderRadius: 15,
+		cursor: "pointer"
 	},
     thirdRow: {
 		display: "flex",
@@ -55,12 +70,8 @@ const styles = StyleSheet.create({
 		lineHeight: "37px",
 	},
 	motion: {
-		width: 52,
-		height: 12,
-		borderRadius: 120,
-		background: COLORS.tertiary,
 		marginTop: 15,
-		marginBottom: 30,
+		marginBottom: 15,
 	},
 });
 
