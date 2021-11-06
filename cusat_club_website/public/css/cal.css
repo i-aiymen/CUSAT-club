@@ -6,6 +6,10 @@
     border-radius: 12px;
 }
 
+.hero {
+    padding: 10px;
+    padding-top: 0;
+}
 #calendar .event-empty p {
     display: none;
 }

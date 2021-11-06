@@ -1,15 +1,18 @@
 import React from "react";
 import { StyleSheet, css } from "aphrodite";
 import Img from "../../assets/images/img.jpg";
-// import { COLORS } from "../../styles/Constants";
+import { COLORS } from "../../styles/Constants";
+import Team from "../../assets/icons/Teams 2nd page.png";
 
 const Main = () => {
 	return (
 		<div className={css(styles.root)}>
 			<div className={css(styles.box)}>
-				<div className={css(styles.titleBox)}>
-					<img src="" alt="icn" className={css(styles.titleIcon)}/>
-					<span className={css(styles.title)}>CUSAT CLUB TEAM</span>
+			<div className={css(styles.titleBox)}>
+					<img src={Team} alt="icn" className={css(styles.titleIcon)} />
+					<span className={css(styles.title)}>
+						CUSAT CLUBS TEAM
+					</span>
 				</div>
 				<div className={css(styles.row)}>
 					<div className={css(styles.profile_card)}>
@@ -380,22 +383,27 @@ const styles = StyleSheet.create({
 		gridColumnGap: 5,
 	},
 	titleBox: {
+		maxWidth: 820,
 		width: "auto",
-		height: "58px",
+		height: 58,
 		borderRadius: 7,
-		justifyContent: "center",
+		display: "flex",
+		flexDirection: "row",
+		// justifyContent: "center",
 		alignItems: "center",
 		paddingLeft: 15,
 		paddingRight: 15,
 	},
 	title: {
-		fontSize: "40px",
+		fontSize: 40,
 		fontWeight: "bold",
 		lineHeight: "50px",
-		color: "white",
+		color: COLORS.primary,
 	},
 	titleIcon: {
-		marginRight: "11px",
+		marginRight: 11,
+		width: "40px",
+		height: "40px"
 	},
 	link: {
 		marginTop: "5px",

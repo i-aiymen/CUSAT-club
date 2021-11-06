@@ -2,6 +2,7 @@ import { StyleSheet, css } from "aphrodite";
 import React from "react";
 // import Poster from "../../assets/images/event.png";
 import { COLORS } from "../../styles/Constants";
+import Time from "../../assets/icons/timeline meeting.png";
 
 const TimeLine = () => {
 	return (
@@ -10,7 +11,7 @@ const TimeLine = () => {
 				<div className={css(styles.contents)}>
 					<div className={css(styles.firstRow)}>
 						<div className={css(styles.titleBox)}>
-							<img src="" alt="icn" className={css(styles.titleIcon)} />
+							<img src={Time} alt="icn" className={css(styles.titleIcon)} />
 							<span className={css(styles.title)}>TIMELINE</span>
 						</div>
 					</div>
@@ -76,7 +77,7 @@ const styles = StyleSheet.create({
 		flexDirection: "row",
 		justifyContent: "center",
 		alignItems: "center",
-		paddingLeft: 15,
+		paddingLeft: 10,
 		paddingRight: 15,
 	},
 	title: {
@@ -86,7 +87,9 @@ const styles = StyleSheet.create({
 		color: COLORS.tertiary,
 	},
 	titleIcon: {
-		marginRight: 11,
+		marginRight: 15,
+		width: "37px",
+		height: "37px"
 	},
 });
 
