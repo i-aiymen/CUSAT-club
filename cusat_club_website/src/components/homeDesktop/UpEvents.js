@@ -101,9 +101,14 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	poster: {
+		':hover': {
+			opacity: "0.8",
+		},
 		minWidth: 335,
 		minHeight: 335,
 		borderRadius: 15,
+		cursor: "pointer"
+
 	},
 
 	thirdRow: {

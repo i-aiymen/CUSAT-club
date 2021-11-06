@@ -115,6 +115,9 @@ const styles = StyleSheet.create({
 		},
 	},
 	inputButton: {
+		':hover': {
+			background: "#d67361",
+		},
 		height: 60,
 		border: "none",
 		background: "#D4887B",
