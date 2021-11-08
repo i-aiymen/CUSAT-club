@@ -15,13 +15,10 @@ const Vision = () => {
 							<span className={css(styles.title)}>MISSION</span>
 						</div>
 						<div className={css(styles.description)}>
-							Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do
-							iusmod tempor incididunt ut labore et slore magna aliqua. Nulla at
-							volutpat iam ut venenatis. Volutpat odio facilisis mauris sit
-							amet. Hendrerit gravida rutrum quisque non. Volutpat aece nas
-							volutpat blandit aliquam sutpat blandit aliquam etiam erat velit
-							scelerisque in. Nulla malesuada pellentesque elit eget gravida cum
-							sociis. Nisl rh
+						Cusat Club is a peer group of energetic students committed to revolutionizing the student community for a better tomorrow.
+We work to bring in the best tech experts, mentors, guides, and industry professionals onboard our sessions so that they can guide the students and help them have a vision for an exciting career. <br/>
+The organisation keeps a watch on internship opportunities and guides as well as trains students to bag those internships.
+Cusat Clubs in all manners can be most aptly regarded as the one-stop-shop for the needs of all students whether internships or training or informative sessions.
 						</div>
 					</div>
 				</div>
@@ -32,15 +29,10 @@ const Vision = () => {
 							<span className={css(styles.title)}>VISION</span>
 						</div>
 						<div className={css(styles.description)}>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla
-							at volutpat diam ut venenatis. Volutpat odio facilisis mauris sit
-							amet. Hendrerit gravida rutrum quisque non. Volutpat maecenas
-							volutpat blandit aliquam etiam erat velit scelerisque in. Nulla
-							malesuada pellentesque elit eget gravida cum sociis. Nisl rhoncus
-							mattis rhoncus urna neque viverra justo. Rhoncus aenean vel elit
-							scelerisque mauris. Consequat interdum varius sit amet mattis
-							vulputate
+						Our vision is to be the best companion of a Cusatian in his journey towards a superb future and we describe it as “Towards a greater life, every stride together”. <br/>
+						We look ahead to widening our spectrum of programs and open a huge platform for techies and students-in-tech to engage with each other, provide classes, guidance, trainings and much more.
+Cusat Clubs aims to introduce freshers to a whole new world of tech related stuff, wherein they can find answers to much of their queries and doubts as such. <br/>
+We look on to bridging the gap between students and expert
 						</div>
 					</div>
 				</div>
