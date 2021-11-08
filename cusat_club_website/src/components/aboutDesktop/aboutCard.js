@@ -2,6 +2,7 @@ import { StyleSheet, css } from "aphrodite";
 import React from "react";
 import { COLORS } from "../../styles/Constants";
 import '../../arrow.css';
+import Mission from "../../assets/icons/MISSION.png";
 
 const About = () => {
 	return (
@@ -10,7 +11,7 @@ const About = () => {
 				<div className={css(styles.missionCard)}>
 					<div className={css(styles.cardContents)}>
 						<div className={css(styles.titleBox)}>
-							<img src="" alt="icn" className={css(styles.titleIcon)} />
+							<img src={Mission} alt="icn" className={css(styles.titleIcon)} />
 							<span className={css(styles.title)}>ABOUT CUSAT CLUBS</span>
 						</div>
 						<div className={css(styles.description)}>
@@ -85,6 +86,8 @@ const styles = StyleSheet.create({
 	},
 	titleIcon: {
 		marginRight: 11,
+		width: "40px",
+		height: "40px"
 	},
 	title: {
 		fontSize: 30,
