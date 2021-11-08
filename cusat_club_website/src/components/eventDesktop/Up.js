@@ -1,8 +1,10 @@
 import { StyleSheet, css } from "aphrodite";
 import React from "react";
-import Poster from "../../assets/logo/event.png";
 import { COLORS } from "../../styles/Constants";
 import Carousel from "react-elastic-carousel";
+import Session19 from "../../assets/sessions/Session 19.jpg";
+import Session20 from "../../assets/sessions/Session 20.jpg";
+import Session21 from "../../assets/sessions/Session 21.jpg";
 
 const breakPoints = [
 	{ width: 1, itemsToShow: 1 },
@@ -16,12 +18,9 @@ const Up = () => {
 
         <>
 			<Carousel breakPoints={breakPoints}>
-				<img src={Poster} alt="poster" className={css(styles.poster)} />
-				<img src={Poster} alt="poster" className={css(styles.poster)} />
-				<img src={Poster} alt="poster" className={css(styles.poster)} />
-				<img src={Poster} alt="poster" className={css(styles.poster)} />
-				<img src={Poster} alt="poster" className={css(styles.poster)} />
-				<img src={Poster} alt="poster" className={css(styles.poster)} />
+				<img src={Session21} alt="poster" className={css(styles.poster)} />
+				<img src={Session20} alt="poster" className={css(styles.poster)} />
+				<img src={Session19} alt="poster" className={css(styles.poster)} />
 			</Carousel>
 			<div className={css(styles.thirdRow)}>
             <div className={css(styles.subtTitle)}>
