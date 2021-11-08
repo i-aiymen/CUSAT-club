@@ -18,9 +18,9 @@ const Up = () => {
 
         <>
 			<Carousel breakPoints={breakPoints}>
-				<a href="https://www.eventbrite.com/e/tips-to-crack-civil-service-exams-by-an-ias-officer-tickets-205488290007?aff=ebdsoporgprofile"><img src={Session21} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/life-of-a-technical-program-manager-tickets-194422010467?aff=ebdsoporgprofile"><img src={Session20} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/job-opportunities-in-mechanical-engineering-tickets-190973826857?aff=ebdsoporgprofile"><img src={Session19} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/tips-to-crack-civil-service-exams-by-an-ias-officer-tickets-205488290007?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session21} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/life-of-a-technical-program-manager-tickets-194422010467?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session20} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/job-opportunities-in-mechanical-engineering-tickets-190973826857?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session19} alt="poster" className={css(styles.poster1)} /></a>
 			</Carousel>
 			<div className={css(styles.thirdRow)}>
             <div className={css(styles.subtTitle)}>
