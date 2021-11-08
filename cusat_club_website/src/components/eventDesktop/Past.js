@@ -16,6 +16,9 @@ import Session12 from "../../assets/sessions/Session 12.jpg";
 import Session13 from "../../assets/sessions/Session_13.jpeg";
 import Session14 from "../../assets/sessions/session_14.jpeg";
 import Session15 from "../../assets/sessions/Session 15.png";
+import Session16 from "../../assets/sessions/Session 16.jpg";
+import Session17 from "../../assets/sessions/Session 17.jpg";
+import Session18 from "../../assets/sessions/Session 18.jpg";
 
 const breakPoints = [
 	{ width: 1, itemsToShow: 1 },
@@ -29,6 +32,9 @@ const Up = () => {
 
         <>
 			<Carousel breakPoints={breakPoints}>
+				<img src={Session18} alt="poster" className={css(styles.poster)} />
+				<img src={Session17} alt="poster" className={css(styles.poster)} />
+				<img src={Session16} alt="poster" className={css(styles.poster)} />
 				<img src={Session15} alt="poster" className={css(styles.poster)} />
 				<img src={Session14} alt="poster" className={css(styles.poster)} />
 				<img src={Session13} alt="poster" className={css(styles.poster)} />
