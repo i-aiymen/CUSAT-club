@@ -34,23 +34,23 @@ const Up = () => {
 
         <>
 			<Carousel breakPoints={breakPoints}>
-				<a href="https://www.eventbrite.com/e/study-and-job-opportunities-in-uk-tickets-184946398657?aff=ebdsoporgprofile"><img src={Session18} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/application-of-software-in-semiconductor-manufacturing-and-telecom-industry-tickets-180993024007?aff=ebdsoporgprofile"><img src={Session17} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/panel-discussion-tickets-177740134527?aff=ebdsoporgprofile"><img src={Session16} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/my-journey-through-data-analytics-tickets-171253823797?aff=ebdsoporgprofile"><img src={Session15} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/life-as-a-devops-engineer-tickets-169126765709?aff=ebdsoporgprofile"><img src={Session} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/study-and-job-opportunities-in-uk-tickets-184946398657?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session18} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/application-of-software-in-semiconductor-manufacturing-and-telecom-industry-tickets-180993024007?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session17} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/panel-discussion-tickets-177740134527?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session16} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/my-journey-through-data-analytics-tickets-171253823797?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session15} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/life-as-a-devops-engineer-tickets-169126765709?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session} alt="poster" className={css(styles.poster1)} /></a>
 				<img src={Session14} alt="poster" className={css(styles.poster1)} />
-				<a href="https://www.eventbrite.com/e/landing-your-dream-job-tickets-168421002753?aff=ebdsoporgprofile"><img src={Session13} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/job-opportunities-in-germany-tickets-166805665235?aff=ebdsoporgprofile"><img src={Session12} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/landing-your-dream-job-tickets-168421002753?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session13} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/job-opportunities-in-germany-tickets-166805665235?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session12} alt="poster" className={css(styles.poster1)} /></a>
 				<img src={Session11} alt="poster" className={css(styles.poster1)} />
 				<img src={Session10} alt="poster" className={css(styles.poster1)} />
 				<img src={Session9} alt="poster" className={css(styles.poster1)} />
 				<img src={Session8} alt="poster" className={css(styles.poster1)} />	
-				<a href="https://www.eventbrite.com/e/cloud-concepts-basics-and-beyond-tickets-161762517043?aff=ebdsoporgprofile"><img src={Session7} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/job-opportunities-in-the-field-of-electronics-and-electrical-engineering-tickets-160908552813?aff=ebdsoporgprofile"><img src={Session6} alt="poster" className={css(styles.poster1)} /></a>
-				<a href="https://www.eventbrite.com/e/viewing-through-a-secure-lens-is-it-a-right-career-tickets-159389846321?aff=ebdsoporgprofile"><img src={Session5} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/cloud-concepts-basics-and-beyond-tickets-161762517043?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session7} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/job-opportunities-in-the-field-of-electronics-and-electrical-engineering-tickets-160908552813?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session6} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/viewing-through-a-secure-lens-is-it-a-right-career-tickets-159389846321?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session5} alt="poster" className={css(styles.poster1)} /></a>
 				<img src={Session3} alt="poster" className={css(styles.poster1)} />
-				<a href="https://www.eventbrite.com/e/a-day-in-the-life-of-a-data-scientist-tickets-157372171401?aff=ebdsoporgprofile"><img src={Session2} alt="poster" className={css(styles.poster1)} /></a>
+				<a href="https://www.eventbrite.com/e/a-day-in-the-life-of-a-data-scientist-tickets-157372171401?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session2} alt="poster" className={css(styles.poster1)} /></a>
 				<a href="https://www.eventbrite.com/e/higher-education-in-us-tickets-157052866351?aff=ebdsoporgprofile" target='_blank' rel="noopener noreferrer"><img src={Session1} alt="poster" className={css(styles.poster1)} /></a>
 			</Carousel>
 			<div className={css(styles.thirdRow)}>
