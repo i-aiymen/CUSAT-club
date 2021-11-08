@@ -20,25 +20,25 @@ $(document).ready(function() {
             //     color: "#63d867" // Event custom color (optional)
             // },
             {
-                name: "Event #20",
+                name: "Event #22",
                 date: "November/20/2021",
                 description: "How to start a startup",
                 type: "event",
             },
             {
-                name: "Event #21",
+                name: "Event #23",
                 date: "November/27/2021",
                 description: "Job opportunities in civil engineering",
                 type: "event",
             },
             {
-                name: "Event #22",
+                name: "Event #24",
                 date: "December/4/2021",
                 description: "software testing as a career option",
                 type: "event",
             },
             {
-                name: "Event #23",
+                name: "Event #25",
                 date: "December/11/2021",
                 description: "A day in the life of network and cloud engineer",
                 type: "event",
