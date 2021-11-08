@@ -1,0 +1,24 @@
+*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}
+#calendar {
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.hero {
+    padding: 10px;
+    padding-top: 0;
+}
+#calendar .event-empty p {
+    display: none;
+}
+
+#calendar .event-empty:after {
+    content: 'No event for today';
+}
+.calendar-active {
+    background-color: rgb(22, 165, 150);
+    border-color:rgb(22, 165, 150) !important;
+    color: white !important;
+}
