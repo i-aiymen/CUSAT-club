@@ -84,6 +84,12 @@ const styles = StyleSheet.create({
 			
 
 		},
+		'@media only screen and (max-width: 1420px)': {
+			width: 360,
+			height: 365,
+			
+
+		},
 	},
     thirdRow: {
 		display: "flex",
