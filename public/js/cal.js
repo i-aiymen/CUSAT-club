@@ -28,9 +28,10 @@ $(document).ready(function() {
             {
                 name: "Event #23",
                 date: "November/27/2021",
-                description: "Job opportunities in civil engineering",
+                description: "Study and work in Canada",
                 type: "event",
             },
+            
             {
                 name: "Event #24",
                 date: "December/4/2021",
@@ -39,6 +40,12 @@ $(document).ready(function() {
             },
             {
                 name: "Event #25",
+                date: "December/5/2021",
+                description: "Job opportunities in civil engineering",
+                type: "event",
+            },
+            {
+                name: "Event #26",
                 date: "December/11/2021",
                 description: "A day in the life of network and cloud engineer",
                 type: "event",
