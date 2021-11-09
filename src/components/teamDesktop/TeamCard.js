@@ -479,6 +479,12 @@ const styles = StyleSheet.create({
 			width: "240px",
 			height: "355px",
 		},
+		'@media only screen and (max-width: 1420px)': {
+			width: "210px",
+			height: "330px"
+			
+
+		},
 	},
 	profile_content: {
 		padding:"15px",
@@ -502,6 +508,12 @@ const styles = StyleSheet.create({
 		'@media only screen and (max-width: 1500px)': {
 			width: "180px",
 			height: "174px",
+		},
+		'@media only screen and (max-width: 1420px)': {
+			width: "160px",
+			height: "154px"
+			
+
 		},
 	},
 	profile_image: { 
@@ -579,6 +591,12 @@ const styles = StyleSheet.create({
 		'@media only screen and (max-width: 1500px)': {
 			width: "180px",
 			marginLeft: "17px",
+		},
+		'@media only screen and (max-width: 1420px)': {
+			width: "160px",
+			marginLeft: "15px",
+			
+
 		},
 	},
 });
