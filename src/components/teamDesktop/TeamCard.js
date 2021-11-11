@@ -26,6 +26,7 @@ import Midhuna from "../../assets/images/midhuna.jpg";
 import Aswanth from "../../assets/images/aswanth.jpg";
 import Utkarsh from "../../assets/images/Utkarsh.jpg";
 import Maya from "../../assets/images/Maya.jpg";
+import Ankitha from "../../assets/images/Ankitha.jpg";
 
 const Main = () => {
 	return (
@@ -85,6 +86,23 @@ const Main = () => {
 								<div className={css(styles.link)}>
 									<a href="mailto:mail@rafirasheed.co" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
 									<a href="https://www.linkedin.com/in/rafitc/" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={css(styles.profile_card)}>
+						<div className={css(styles.profile_content)}>
+							<div className={css(styles.profile_image)}>
+								<img src={Ankitha} alt="first user" className={css(styles.img)}/>
+							</div>
+							<div className={css(styles.desc)}>
+								<div className={css(styles.name)}>Ankitha Anil</div>
+								<div className={css(styles.desig)}>Branch Rep - IT</div>
+								<div className={css(styles.dep)}>S7 IT</div>
+								<hr className={css(styles.hr)}/>
+								<div className={css(styles.link)}>
+									<a href="mailto:ankithaanil99@gmail.com" target='_blank' rel="noopener noreferrer"><span className="dot1"><img src={Mail} alt="icn" className="Social"/></span></a>
+									<a href="http://linkedin.com/in/ankitha-anil-148bbb1a0" target='_blank' rel="noopener noreferrer"><span className="dot1 dot2"><img src={Link} alt="icn" className="Social1"/></span></a>
 								</div>
 							</div>
 						</div>
