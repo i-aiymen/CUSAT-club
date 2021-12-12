@@ -1,9 +1,9 @@
-# [CUSAT Clubs](https://cusat-clubs.github.io//)
+# [ENGINEERS LEAGUE](https://cusat-clubs.github.io//)
 
 
 
 
-Hey peeps! Welcome to Cusat Clubs! Here you get to see various sessions and activities that are organized as a collaborative effort by various clubs in Cusat.
+Hey peeps! Welcome to Engineers League! Here you get to see various sessions and activities that are organized as a collaborative effort by various clubs in Cusat.
 
 From working professionals sharing their experience in particular job roles to experts giving tips on interview and life skills, we got it all. 
 
