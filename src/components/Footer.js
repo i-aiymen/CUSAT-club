@@ -64,7 +64,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className={css(styles.thirdRow)}>
-						Copyright @ 2021 CUSAT CLUBS. All rights reserved.
+						Copyright @ 2021 ENGINEERS LEAGUE. All rights reserved.
 					</div>
 				</div>
 			</div>

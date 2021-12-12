@@ -15,7 +15,7 @@ const Header = ({ event }) => {
 			<div className={css(styles.navBar)}>
 				<div className={css(styles.left)}>
 					<img src={Logo} alt="Logo" className={css(styles.logoImg)} />
-					<span className={css(styles.logoName)}> CUSAT CLUBS </span>
+					<span className={css(styles.logoName)}> ENGINEERS LEAGUE </span>
 				</div>
 				<div className={css(styles.right)}>
 					<div className={css(styles.pageNavs)}>

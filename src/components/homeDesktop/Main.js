@@ -26,7 +26,7 @@ const Main = () => {
 				<div className={css(styles.mainCard)}>
 					<div className={css(styles.top)}>
 						<img src={Logo} alt="Big Logo" className={css(styles.bigLogo)} />
-						<div className={css(styles.mainCardTitle)}> CUSAT CLUBS </div>
+						<div className={css(styles.mainCardTitle)}> ENGINEERS LEAGUE </div>
 						<span className={css(styles.mainCardDesc)}>
 							ENGINNERING YOUR FUTURE
 						</span>
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
 	},
 	mainCardTitle: {
 		marginTop: 39,
-		fontSize: 90,
+		fontSize: 70,
 		fontWeight: "bold",
 		lineHeight: "58px",
 		color: COLORS.primary,
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
 		marginTop: 17,
 		fontSize: 43,
 		fontWeight: "bold",
-		lineHeight: "58px",
+		lineHeight: "50px",
 		color: COLORS.primary,
 	},
 	icon: {

@@ -12,11 +12,11 @@ const About = () => {
 					<div className={css(styles.cardContents)}>
 						<div className={css(styles.titleBox)}>
 							<img src={Mission} alt="icn" className={css(styles.titleIcon)} />
-							<span className={css(styles.title)}>ABOUT CUSAT CLUBS</span>
+							<span className={css(styles.title)}>ABOUT ENGINEERS LEAGUE</span>
 						</div>
 						<div className={css(styles.description)}>
-						Looking for Mentorship,then undoubtedly Cusat Clubs is the place for you! Here, complexities are simplified and ideas are structured paving way to achieve the impossible.
-What started small, with a handful of people is now a well-oiled machine with clear vision. Over a year, Cusat Clubs has grown and today it represents many clubs of Cusat as its member. Focusing on spreading knowledge and guiding students to achieve their dreams have been the source of encouragement for the Cusat Clubs. Challenges and experiences have made us better over a year and helped polish ourselves to what we are today.
+						Looking for Mentorship,then undoubtedly Engineers League is the place for you! Here, complexities are simplified and ideas are structured paving way to achieve the impossible.
+What started small, with a handful of people is now a well-oiled machine with clear vision. Over a year, Engineers League has grown and today it represents many clubs of Cusat as its member. Focusing on spreading knowledge and guiding students to achieve their dreams have been the source of encouragement for the Engineers League. Challenges and experiences have made us better over a year and helped polish ourselves to what we are today.
 
 						<br/> <br/>
 						Some of the clubs are:

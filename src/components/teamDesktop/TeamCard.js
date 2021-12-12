@@ -35,7 +35,7 @@ const Main = () => {
 			<div className={css(styles.titleBox)}>
 					<img src={Team} alt="icn" className={css(styles.titleIcon)} />
 					<span className={css(styles.title)}>
-						CUSAT CLUBS TEAM
+					ENGINEERS LEAGUE TEAM
 					</span>
 				</div>
 				<div className={css(styles.row)}>
@@ -63,7 +63,7 @@ const Main = () => {
 							</div>
 							<div className={css(styles.desc)}>
 								<div className={css(styles.name)}>Utkarsh Raj</div>
-								<div className={css(styles.desig)}>CUSAT CLUB Lead</div>
+								<div className={css(styles.desig)}>ENGINEERS LEAGUE - Lead</div>
 								<div className={css(styles.dep)}>S7 CS</div>
 								<hr className={css(styles.hr)}/>
 								<div className={css(styles.link)}>

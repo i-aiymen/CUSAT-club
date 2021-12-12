@@ -15,10 +15,10 @@ const Vision = () => {
 							<span className={css(styles.title)}>MISSION</span>
 						</div>
 						<div className={css(styles.description)}>
-						Cusat Club is a peer group of energetic students committed to revolutionizing the student community for a better tomorrow.
+						Engineers League is a peer group of energetic students committed to revolutionizing the student community for a better tomorrow.
 We work to bring in the best tech experts, mentors, guides, and industry professionals onboard our sessions so that they can guide the students and help them have a vision for an exciting career. <br/>
 The organisation keeps a watch on internship opportunities and guides as well as trains students to bag those internships.
-Cusat Clubs in all manners can be most aptly regarded as the one-stop-shop for the needs of all students whether internships or training or informative sessions.
+Engineers League in all manners can be most aptly regarded as the one-stop-shop for the needs of all students whether internships or training or informative sessions.
 						</div>
 					</div>
 				</div>
@@ -31,7 +31,7 @@ Cusat Clubs in all manners can be most aptly regarded as the one-stop-shop for t
 						<div className={css(styles.description)}>
 						Our vision is to be the best companion of a Cusatian in his journey towards a superb future and we describe it as “Towards a greater life, every stride together”. <br/>
 						We look ahead to widening our spectrum of programs and open a huge platform for techies and students-in-tech to engage with each other, provide classes, guidance, trainings and much more.
-Cusat Clubs aims to introduce freshers to a whole new world of tech related stuff, wherein they can find answers to much of their queries and doubts as such. <br/>
+						Engineers League aims to introduce freshers to a whole new world of tech related stuff, wherein they can find answers to much of their queries and doubts as such. <br/>
 We look on to bridging the gap between students and expert
 						</div>
 					</div>
