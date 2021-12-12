@@ -1,4 +1,4 @@
-# [ENGINEERS LEAGUE](https://cusat-clubs.github.io//)
+# [ENGINEERS LEAGUE](https://engineers-league.vercel.app)
 
 
 
@@ -16,4 +16,4 @@ Excited to skill up and hear what lays ahead? Make sure to subscribe to our chan
 ![Cusat clubs](./src/assets/images/Event%20Brite%20Banner.png)
 
 
-For more details check out our [website](https://cusat-clubs.github.io//)
+For more details check out our [website](https://engineers-league.vercel.app)
