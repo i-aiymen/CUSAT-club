@@ -13,7 +13,7 @@ import Agora from "../../assets/logo/agoralightblue-1.png";
 import Sae from "../../assets/logo/sae-international-logo-png-transparent.png";
 import Hack from "../../assets/logo/hack.png";
 import Horizon from "../../assets/logo/horizon.png";
-import Logo from "../../assets/logo/Logo.png";
+import Logo from "../../assets/logo/engineers-league.png";
 import { COLORS } from "../../styles/Constants";
 import { Link } from "react-scroll";
 import {MdSouth} from "react-icons/md"
