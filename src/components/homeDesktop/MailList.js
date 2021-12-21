@@ -10,7 +10,7 @@ const MailList = () => {
 			<div className={css(styles.container)}>
 				<div className={css(styles.titleBox)}>
 					<img src={Mail} alt="icn" className={css(styles.titleIcon)} />
-					<span className={css(styles.title)}>JOIN OUR MAILING LIST</span>
+					<span className={css(styles.title)}>JOIN OUR DISCORD SERVER</span>
 				</div>
 				<div className={css(styles.description)}>
 					Get weekly access to our webinars, career tips and more...
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
 		color: COLORS.tertiary,
 	},
 	titleBox: {
-		maxWidth: 550,
+		maxWidth: 645,
 		height: 58,
 		borderRadius: 7,
 		background: COLORS.tertiary,
