@@ -21,7 +21,7 @@ function App() {
 					<h2>JOIN OUR DISCORD SERVER</h2>
 				</div>
 				<div className="gform">
-					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIGpijZxKGkPAJ4SWOT6cWqc1Hber5H5do_irRvdgcRyMMEg/viewform?embedded=true" scrolling="no" width="750" height="1782"  title="CUSAT Club" frameborder="0" marginheight="0" marginwidth="0" className="form1" >Loading…</iframe>
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIGpijZxKGkPAJ4SWOT6cWqc1Hber5H5do_irRvdgcRyMMEg/viewform?embedded=true" scrolling="no" width="750" height="2000"  title="CUSAT Club" frameborder="0" marginheight="0" marginwidth="0" className="form1" >Loading…</iframe>
 				</div>
 			</BrowserRouter>
 		);
