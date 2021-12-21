@@ -223,6 +223,20 @@
 	top: 0;
 	border-radius: 1px
   }
+  .form1 {
+	  position: absolute;
+	top: 120px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	border: none;
+	border-radius: 1px;
+  }
+
+  .join {
+	  font-weight: bold;
+  }
 
 @media only screen and (max-width: 1870px) {
 	.dot1 {

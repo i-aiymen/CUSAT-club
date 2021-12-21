@@ -6,6 +6,7 @@ import About from "./pages/desktop/About";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Switch } from "react-router";
 import useDeviceType from "./hooks/deviceType";
+import "./arrow.css"
 
 
 function App() {
@@ -15,6 +16,12 @@ function App() {
 			<BrowserRouter>
 				<div className="App">
 					<h1>Under Maintenance. View in Desktop</h1>
+				</div>
+				<div className="join">
+					<h2>JOIN OUR DISCORD SERVER</h2>
+				</div>
+				<div className="gform">
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIGpijZxKGkPAJ4SWOT6cWqc1Hber5H5do_irRvdgcRyMMEg/viewform?embedded=true" scrolling="no" width="750" height="1782"  title="CUSAT Club" frameborder="0" marginheight="0" marginwidth="0" className="form1" >Loading…</iframe>
 				</div>
 			</BrowserRouter>
 		);
